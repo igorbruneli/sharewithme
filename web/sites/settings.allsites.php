@@ -1,9 +1,7 @@
 <?php
 
 // Trusted Host Settings
-$settings['trusted_host_patterns'] = array(
-  '^188.226.163.53/sharewithme/web$',
-);
+$settings['trusted_host_patterns'] = array('.*');
 
 // $site_path is made available by Drupal core.
 $sites_subdir = basename($site_path);
