@@ -2,14 +2,14 @@
 
 // Trusted Host Settings
 $settings['trusted_host_patterns'] = array(
-  '^localhost$',
+  '^188.226.163.53/sharewithme/web$',
 );
 
 // $site_path is made available by Drupal core.
 $sites_subdir = basename($site_path);
 
 $databases['default']['default'] = array (
-    'database' => 'sharewithme_main_' . $sites_subdir,
+    'database' => 'sharewithme_' . $sites_subdir,
     'username' => 'root',
     'password' => 'root',
     'host' => '127.0.0.1',
