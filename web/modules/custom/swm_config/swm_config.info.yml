@@ -1,0 +1,10 @@
+name: 'SWM Config'
+type: module
+core: 8.x
+dependencies:
+  - block_content
+  - content_translation
+  - field
+  - language
+  - menu_link_content
+  - text
