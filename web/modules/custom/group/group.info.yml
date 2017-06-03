@@ -1,0 +1,13 @@
+name: Group
+description: 'Provides Group content type and related configuration. '
+type: module
+core: 8.x
+dependencies:
+  - content_translation
+  - field
+  - language
+  - menu_ui
+  - node
+  - path
+  - text
+  - user
