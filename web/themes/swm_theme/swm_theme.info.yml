@@ -1,0 +1,25 @@
+core: 8.x
+type: theme
+base theme: bootstrap
+
+name: 'Sharewithme theme'
+description: 'Uses the Bootstrap framework Sass source files.'
+package: 'Bootstrap'
+
+regions:
+  header_page: 'Header Page'
+  navigation: 'Navigation'
+  navigation_collapsible: 'Navigation (Collapsible)'
+  header: 'Top Bar'
+  highlighted: 'Highlighted'
+  help: 'Help'
+  content: 'Content'
+  sidebar_first: 'Primary'
+  sidebar_second: 'Secondary'
+  footer: 'Footer'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+
+libraries:
+  - 'swm_theme/global-styling'
+  - 'swm_theme/bootstrap-scripts'

@@ -1,0 +1,179 @@
+
+// Override buttons css default values
+// ----------------------------------------------------------------------------
+
+@mixin tl-button {
+  @include box-shadow(0 1px 3px 0 rgba(0, 0, 0, 0.30), inset 0 0 0 0 rgba(255, 255, 255, 0.40));
+  @include gradient-directional(#F6F6F6, #DCDCDC, 180deg);
+  border: 0;
+  color: #6D6E70;
+  font-size: 14px;
+  position: relative;
+  text-transform: uppercase;
+
+  &:hover {
+    color: #6D6E70;
+  }
+}
+
+@mixin tb-button--icon-more {
+  &:after {
+    content: '';
+    background: transparent url('../img/icon-button-plus.svg') no-repeat center center;
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    margin-left: 6px;
+    position: relative;
+    top: 2px;
+  }
+}
+
+.tl-button--more-link,
+.more-link a {
+  @include gradient-directional(#F6F6F6, #DCDCDC, 180deg);
+  text-decoration: underline;
+  padding: 4px 10px;
+  display: inline-block;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.more-link {
+  text-align: right;
+  padding-top: 10px;
+}
+
+.tl-row-download-fx .views-field-title {
+  :after {
+    position: absolute;
+    content: 'download';
+    background: url(../img/download_icon.svg) no-repeat top center;
+    height: 24px;
+    color: #B8B7B7;
+    font-family: "Source Sans Pro";
+    font-size: 14px;
+    line-height: 65px;
+    top: 0px;
+    right: 0px;
+  }
+  span {
+    width: calc(100% - 58px);
+    display: block;
+  }
+}
+
+// Animation
+// ----------------------------------------------------------------------------
+
+
+.tl-row-hover-fx {
+  transition: all .2s ease-out!important;
+}
+.tl-row-hover-fx:hover{
+     cursor: pointer;
+     box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.30), inset 0px 0px 0px 0px rgba(255,255,255,0.40)!important;
+}
+
+.tl-row-hover-fx:hover .views-field-title span:after {
+ background: url(../img/download_icon_hover.svg) no-repeat top center;
+}
+
+// Big Buttons
+// ----------------------------------------------------------------------------
+
+.button_big {
+  cursor: pointer;
+  width: 100%;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  .block_text {
+    height: 90px;
+    @media screen and (min-width: $screen-sm-min) {
+      height: 65px;
+    }
+    @media screen and (min-width: $screen-md-min) {
+      height: 90px;
+    }
+    @media screen and (min-width: $screen-lg-min) {
+      height: 110px;
+    }
+  }
+
+  h2, a {
+    font-size: 0px;
+  }
+
+  &.button_big_contact_pt {
+    background-image: url(../img/buttons_big/button_big_contact_pt.jpg);
+  }
+  &.button_big_contact_tt {
+    background-image: url(../img/buttons_big/button_big_contact_tt.jpg);
+  }
+  &.button_big_contact_en {
+    background-image: url(../img/buttons_big/button_big_contact_en.jpg);
+  }
+
+  &.button_big_invest_pt {
+    background-image: url(../img/buttons_big/button_big_invest_pt.jpg);
+  }
+  &.button_big_invest_tt {
+    background-image: url(../img/buttons_big/button_big_invest_tt.jpg);
+  }
+  &.button_big_invest_en {
+    background-image: url(../img/buttons_big/button_big_invest_en.jpg);
+  }
+
+  &.button_big_forms_pt {
+    background-image: url(../img/buttons_big/button_big_forms_pt.jpg);
+  }
+  &.button_big_forms_tt {
+    background-image: url(../img/buttons_big/button_big_forms_tt.jpg);
+  }
+  &.button_big_forms_en {
+    background-image: url(../img/buttons_big/button_big_forms_en.jpg);
+  }
+
+  &.button_big_jornal_pt {
+    background-image: url(../img/buttons_big/button_big_jornal_pt.jpg);
+  }
+  &.button_big_jornal_tt {
+    background-image: url(../img/buttons_big/button_big_jornal_tt.jpg);
+  }
+  &.button_big_jornal_en {
+    background-image: url(../img/buttons_big/button_big_jornal_en.jpg);
+  }
+
+  &.button_big_links_pt {
+    background-image: url(../img/buttons_big/button_big_links_pt.jpg);
+  }
+  &.button_big_links_tt {
+    background-image: url(../img/buttons_big/button_big_links_tt.jpg);
+  }
+  &.button_big_links_en {
+    background-image: url(../img/buttons_big/button_big_links_en.jpg);
+  }
+}
+
+#block-configblock-button-big-contact,
+#block-configblock-button-big-forms,
+#block-configblock-button-big-invest {
+  background: none;
+}
+
+.tlgov-content #block-configblock-button-big-links,
+.tlgov-content #block-configblock-button-big-jornal {
+  margin: auto;
+  padding: 15px 0px 5px 0px;
+
+  @media screen and (min-width: $screen-sm-min) {
+    float: left;
+    width: 50%;
+    width: 50%;
+    padding: 15px 5px;
+  }
+}

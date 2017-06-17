@@ -1,0 +1,39 @@
+
+// Vertical alignment (top, center or bottom)
+// ----------------------------------------------------------------------------
+
+@mixin grid-align($alignment) {
+  font-size: 0;
+
+  > [class^=col-] {
+    float: none;
+    display: inline-block;
+
+    @if ($alignment == top) {
+      vertical-align: top;
+    }
+
+    @if ($alignment == middle) {
+      vertical-align: middle;
+    }
+
+    @if ($alignment == bottom) {
+      vertical-align: bottom;
+    }
+  }
+}
+
+.grid-align-top { @include grid-align(top); }
+@media screen and (min-width: $screen-sm-min) { .grid-align-top--sm-up { @include grid-align(top); } }
+@media screen and (min-width: $screen-md-min) { .grid-align-top--md-up { @include grid-align(top); } }
+@media screen and (min-width: $screen-lg-min) { .grid-align-top--lg-up { @include grid-align(top); } }
+
+.grid-align-middle { @include grid-align(middle); }
+@media screen and (min-width: $screen-sm-min) { .grid-align-top--sm-up { @include grid-align(middle); } }
+@media screen and (min-width: $screen-md-min) { .grid-align-top--md-up { @include grid-align(middle); } }
+@media screen and (min-width: $screen-lg-min) { .grid-align-top--lg-up { @include grid-align(middle); } }
+
+.grid-align-bottom { @include grid-align(bottom); }
+@media screen and (min-width: $screen-sm-min) { .grid-align-top--sm-up { @include grid-align(bottom); } }
+@media screen and (min-width: $screen-md-min) { .grid-align-top--md-up { @include grid-align(bottom); } }
+@media screen and (min-width: $screen-lg-min) { .grid-align-top--lg-up { @include grid-align(bottom); } }

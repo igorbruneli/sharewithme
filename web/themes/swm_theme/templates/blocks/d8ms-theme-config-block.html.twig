@@ -1,0 +1,15 @@
+<div id="{{ attr.id }}" class="{{ attr.class }}">
+  {% if title %}
+    <h2>{{ title | raw }}</h2>
+  {% endif %}
+  {% if text %}
+    <div class="block_text">
+      {{ text | raw }}
+    </div>
+  {% endif %}
+  {% if img %}
+    <div class="block_img">
+      <img src="{{ base_path ~ img }}" />
+    </div>
+  {% endif %}
+</div>

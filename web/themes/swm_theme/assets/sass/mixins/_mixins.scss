@@ -1,0 +1,18 @@
+
+// Import mixins file here
+// ----------------------------------------------------------------------------
+
+@import "alignments";
+@import "appearance";
+@import "blur";
+@import "family";
+@import "flexbox";
+@import "font-smoothing";
+@import "grayscale";
+@import "placeholders";
+@import "transform";
+@import "transition";
+@import "column-count";
+
+// Import at last
+@import "includes";
