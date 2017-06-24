@@ -1,1 +1,4 @@
+excluded:
+  - system.action.pathauto_update_alias_node
+  - system.action.pathauto_update_alias_user
 required: true
