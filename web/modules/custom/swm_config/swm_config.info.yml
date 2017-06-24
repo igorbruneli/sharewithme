@@ -8,6 +8,7 @@ dependencies:
   - content_translation
   - field
   - file
+  - help
   - image
   - language
   - menu_link_content
