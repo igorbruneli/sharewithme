@@ -2,9 +2,21 @@ name: 'SWM Config'
 type: module
 core: 8.x
 dependencies:
+  - block
   - block_content
+  - comment
   - content_translation
   - field
+  - file
+  - image
   - language
   - menu_link_content
+  - node
+  - path
+  - pathauto
+  - rdf
+  - system
+  - taxonomy
   - text
+  - user
+  - views
