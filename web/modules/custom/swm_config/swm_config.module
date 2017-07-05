@@ -1,0 +1,17 @@
+<?php
+
+/** Implements hook_preprocess_block().
+ * @param $variables
+ */
+function swm_config_preprocess_block(&$variables) {
+
+  // Add id to block titles of views
+  if ($variables['base_plugin_id'] == 'views_block' && isset($variables['content']['#display_id'])) {
+    $variables['title_attributes']['id'] = $variables['content']['#display_id'];
+  }
+
+  if ($variables['configuration']['id'] == 'config_block' || $variables['base_plugin_id'] == 'views_block') {
+      $variables['attributes']['class'] = 'tl-region';
+  }
+
+}

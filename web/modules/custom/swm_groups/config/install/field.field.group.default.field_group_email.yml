@@ -2,15 +2,15 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_group_email
-    - node.type.group
-id: node.group.field_group_email
+    - field.storage.group.field_group_email
+    - group.type.default
+id: group.default.field_group_email
 field_name: field_group_email
-entity_type: node
-bundle: group
-label: Email
+entity_type: group
+bundle: default
+label: 'Group Email'
 description: ''
-required: false
+required: true
 translatable: false
 default_value: {  }
 default_value_callback: ''

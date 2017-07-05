@@ -1,0 +1,9 @@
+name: 'SWM Groups'
+type: module
+core: 8.x
+dependencies:
+  - field
+  - group
+  - path
+  - user
+  - views
