@@ -22,7 +22,7 @@
     "drupal/admin_toolbar": "^1.18",
     "drupal/pathauto": "^1.0",
     "drupal/views_slideshow": "^4.4",
-    "drupal/group": "1.0-rc1"
+    "drupal/group": "^1.0-rc1"
   },
   "require-dev": {
   },
