@@ -4,6 +4,8 @@ core: 8.x
 dependencies:
   - field
   - group
+  - image
   - path
+  - swm_config
   - user
   - views
