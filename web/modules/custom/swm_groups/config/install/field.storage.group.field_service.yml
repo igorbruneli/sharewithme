@@ -1,0 +1,26 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - group
+    - options
+id: group.field_service
+field_name: field_service
+entity_type: group
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: netflix
+      label: Netflix
+    -
+      value: spotify
+      label: Spotify
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

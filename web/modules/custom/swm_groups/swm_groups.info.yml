@@ -2,9 +2,13 @@ name: 'SWM Groups'
 type: module
 core: 8.x
 dependencies:
+  - ctools_block
   - field
   - group
   - image
+  - options
+  - page_manager
+  - panels
   - path
   - swm_config
   - user

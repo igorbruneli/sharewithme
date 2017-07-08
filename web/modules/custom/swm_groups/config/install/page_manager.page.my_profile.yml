@@ -1,0 +1,15 @@
+langcode: en
+status: true
+dependencies: {  }
+id: my_profile
+label: 'My Profile'
+description: ''
+use_admin_theme: false
+path: '/user/{user}'
+access_logic: and
+access_conditions: {  }
+parameters:
+  user:
+    machine_name: user
+    type: 'entity:user'
+    label: User

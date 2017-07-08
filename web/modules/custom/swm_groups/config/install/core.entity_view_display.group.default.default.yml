@@ -3,7 +3,10 @@ status: true
 dependencies:
   config:
     - field.field.group.default.field_group_email
+    - field.field.group.default.field_service
     - group.type.default
+  module:
+    - options
 id: group.default.default
 targetEntityType: group
 bundle: default
@@ -15,6 +18,13 @@ content:
     settings: {  }
     third_party_settings: {  }
     type: basic_string
+    region: content
+  field_service:
+    weight: -3
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
     region: content
   label:
     label: hidden

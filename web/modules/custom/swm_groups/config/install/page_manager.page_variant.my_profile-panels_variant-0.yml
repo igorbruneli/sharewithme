@@ -1,0 +1,96 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.my_profile
+    - views.view.my_groups
+  module:
+    - ctools_block
+    - group
+    - panels
+    - swm_config
+    - views
+id: my_profile-panels_variant-0
+label: Panels
+variant: panels_variant
+variant_settings:
+  blocks:
+    06ef5e7f-5881-47b3-a5b8-a95f4237fd96:
+      id: 'entity_field:user:name'
+      label: Name
+      provider: ctools_block
+      label_display: '0'
+      formatter:
+        label: hidden
+        type: user_name
+        settings:
+          link_to_entity: false
+        third_party_settings: {  }
+        weight: 0
+      region: content
+      weight: -2
+      uuid: 06ef5e7f-5881-47b3-a5b8-a95f4237fd96
+      context_mapping:
+        entity: current_user
+    7fdb9124-5107-4613-a2ff-bffa3ac674f7:
+      id: 'entity_field:user:user_picture'
+      label: Picture
+      provider: ctools_block
+      label_display: '0'
+      formatter:
+        label: hidden
+        type: image
+        settings:
+          image_style: medium
+          image_link: ''
+        third_party_settings: {  }
+        weight: 0
+      region: content
+      weight: -1
+      uuid: 7fdb9124-5107-4613-a2ff-bffa3ac674f7
+      context_mapping:
+        entity: current_user
+    ca6da28d-66da-45d1-82c5-23154f9fffc1:
+      id: group_operations
+      label: 'Group operations'
+      provider: group
+      label_display: visible
+      region: content
+      weight: 1
+      uuid: ca6da28d-66da-45d1-82c5-23154f9fffc1
+      context_mapping: {  }
+    b624f6ee-021f-4c82-8392-9760af75903e:
+      id: config_block
+      label: 'Create a group Block'
+      provider: swm_config
+      label_display: '0'
+      region: content
+      weight: 2
+      uuid: b624f6ee-021f-4c82-8392-9760af75903e
+      context_mapping: {  }
+    e20cd231-923c-470b-a856-b0bea2f758df:
+      id: 'views_block:my_groups-block_1'
+      label: ''
+      provider: views
+      label_display: visible
+      views_label: ''
+      items_per_page: none
+      region: content
+      weight: 0
+      uuid: e20cd231-923c-470b-a856-b0bea2f758df
+      context_mapping: {  }
+  id: panels_variant
+  uuid: d41aea54-a6a6-46c8-ab38-c540355f686b
+  label: null
+  weight: 0
+  layout: layout_onecol
+  layout_settings: {  }
+  page_title: ''
+  storage_type: page_manager
+  storage_id: my_profile-panels_variant-0
+  builder: standard
+page: my_profile
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }
