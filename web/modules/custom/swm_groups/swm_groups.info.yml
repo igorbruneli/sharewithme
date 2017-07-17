@@ -2,10 +2,12 @@ name: 'SWM Groups'
 type: module
 core: 8.x
 dependencies:
+  - content_translation
   - ctools_block
   - field
   - group
   - image
+  - language
   - options
   - page_manager
   - panels

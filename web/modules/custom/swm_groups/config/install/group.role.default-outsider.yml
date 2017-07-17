@@ -10,4 +10,7 @@ internal: true
 audience: outsider
 group_type: default
 permissions_ui: true
-permissions: {  }
+permissions:
+  0: 'join group'
+  1: 'view group'
+  3: 'view group_membership content'
