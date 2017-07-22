@@ -28,6 +28,8 @@ $c-red-light:             #C00C00;
 $c-red:                   #BF2F2F;
 $c-red-dark:              #910000;
 
+$c-blue: #399189;
+
 
 // Slider height
 $slider-height: 260px;
@@ -70,7 +72,7 @@ $header-height:           124px;
 $text-color:            $c-gray-dark;
 
 //** Global textual link color.
-$link-color:            $c-red-dark;
+$link-color:            $c-blue;
 //** Link hover color set via `darken()` function.
 // $link-hover-color:      darken($link-color, 15%);
 $link-hover-color:      $link-color;
