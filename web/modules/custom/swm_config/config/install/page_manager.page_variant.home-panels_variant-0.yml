@@ -1,0 +1,47 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.home
+  module:
+    - group
+    - panels
+    - swm_config
+id: home-panels_variant-0
+label: home-variant
+variant: panels_variant
+variant_settings:
+  blocks:
+    804c80ad-3582-49ac-a335-17c89f7de828:
+      id: group_operations
+      label: 'Group operations'
+      provider: group
+      label_display: visible
+      region: content
+      weight: 0
+      uuid: 804c80ad-3582-49ac-a335-17c89f7de828
+      context_mapping: {  }
+    b498df6b-4afb-4b16-88f4-9b58936a82f0:
+      id: config_block
+      label: 'Create a group Block'
+      provider: swm_config
+      label_display: '0'
+      region: content
+      weight: 1
+      uuid: b498df6b-4afb-4b16-88f4-9b58936a82f0
+      context_mapping: {  }
+  id: panels_variant
+  uuid: bb686575-0018-4df9-bb12-09317faefd7a
+  label: null
+  weight: 0
+  layout: layout_onecol
+  layout_settings: {  }
+  page_title: ''
+  storage_type: page_manager
+  storage_id: home-panels_variant-0
+  builder: standard
+page: home
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

@@ -8,14 +8,18 @@ dependencies:
   - content_translation
   - field
   - file
+  - group
   - help
   - image
   - language
   - menu_link_content
   - node
+  - page_manager
+  - panels
   - path
   - pathauto
   - rdf
+  - swm_config
   - system
   - taxonomy
   - text
