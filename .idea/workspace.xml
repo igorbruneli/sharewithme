@@ -1,0 +1,1004 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="87b233e0-c757-46e0-bb8f-c79b3fd519fb" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/modules/custom/swm_config/src/Plugin/Block/ConfigBlock.php" afterPath="$PROJECT_DIR$/web/modules/custom/swm_config/src/Plugin/Block/ConfigBlock.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/sites/default/default.services.yml" afterPath="$PROJECT_DIR$/web/sites/default/default.services.yml" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
+  <component name="DrupalConfiguration" enabled="true" version="8">
+    <drupalPath>$PROJECT_DIR$/web</drupalPath>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="page.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/themes/swm_theme/templates/page.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConfigBlock.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/modules/custom/swm_config/src/Plugin/Block/ConfigBlock.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1245">
+              <caret line="83" column="34" lean-forward="true" selection-start-line="83" selection-start-column="34" selection-end-line="83" selection-end-column="34" />
+              <folding>
+                <element signature="e#50#82#0#PHP" expanded="true" />
+                <marker date="1501315060000" expanded="true" signature="1740:1748" ph="ç" />
+                <marker date="1501315060000" expanded="true" signature="1748:1756" ph="õ" />
+                <marker date="1501315060000" expanded="true" signature="1782:1790" ph="ç" />
+                <marker date="1501315060000" expanded="true" signature="1790:1798" ph="ã" />
+                <marker date="1501315060000" expanded="true" signature="1809:1816" ph="ê" />
+                <marker date="1501315060000" expanded="true" signature="1824:1832" ph="í" />
+                <marker date="1501315060000" expanded="true" signature="1846:1854" ph="ã" />
+                <marker date="1501315060000" expanded="true" signature="1879:1887" ph="ç" />
+                <marker date="1501315060000" expanded="true" signature="1887:1895" ph="ã" />
+                <marker date="1501315060000" expanded="true" signature="1908:1916" ph="ç" />
+                <marker date="1501315060000" expanded="true" signature="1916:1924" ph="ã" />
+                <marker date="1501315060000" expanded="true" signature="1961:1969" ph="ç" />
+                <marker date="1501315060000" expanded="true" signature="1969:1977" ph="õ" />
+                <marker date="1501315060000" expanded="true" signature="1987:1995" ph="ã" />
+                <marker date="1501315060000" expanded="true" signature="2065:2073" ph="õ" />
+                <marker date="1501315060000" expanded="true" signature="2094:2102" ph="ã" />
+                <marker date="1501315060000" expanded="true" signature="2115:2123" ph="ç" />
+                <marker date="1501315060000" expanded="true" signature="2123:2131" ph="õ" />
+                <marker date="1501315060000" expanded="true" signature="2161:2169" ph="í" />
+                <marker date="1501315060000" expanded="true" signature="2349:2357" ph="é" />
+                <marker date="1501315060000" expanded="true" signature="2368:2376" ph="ó" />
+                <marker date="1501315060000" expanded="true" signature="2445:2452" ph="’" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="swm_config.info.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/modules/custom/swm_config/swm_config.info.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="drush" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.composer/vendor/drush/drush/drush">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="109" column="3" lean-forward="false" selection-start-line="109" selection-start-column="3" selection-end-line="109" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HttpKernel.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/symfony/http-kernel/HttpKernel.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.inc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/core/includes/bootstrap.inc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="579" column="0" lean-forward="false" selection-start-line="579" selection-start-column="0" selection-end-line="579" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Link.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/core/lib/Drupal/Core/Link.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-7">
+              <caret line="73" column="25" lean-forward="false" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Url.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/core/lib/Drupal/Core/Url.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-7">
+              <caret line="140" column="25" lean-forward="false" selection-start-line="140" selection-start-column="25" selection-end-line="140" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ba</find>
+      <find>bar</find>
+      <find>barti</find>
+      <find>bartik</find>
+      <find>tlc</find>
+      <find>color</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/web/modules/betterlogin</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/web/modules/betterlogin/betterlogin.module" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/web/themes/swm_theme/assets/sass/_default-variables.scss" />
+        <option value="$PROJECT_DIR$/web/modules/custom/swm_config/src/Plugin/Block/ConfigBlock.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/node_modules" />
+    <handled-path value="$PROJECT_DIR$/web/core/node_modules" />
+    <handled-path value="$PROJECT_DIR$/web/themes/contrib/bootstrap/node_modules" />
+  </component>
+  <component name="PhpDebugGeneral" listening_started="true" notify_if_session_was_finished_without_being_paused="false" />
+  <component name="PhpServers">
+    <servers>
+      <server host="loc.sharewithme" id="b6f17c93-3d3b-4997-b0d5-b4c21cdfb4bb" name="loc.sharewithme" use_path_mappings="true">
+        <path_mappings>
+          <mapping local-root="$PROJECT_DIR$" remote-root="/Users/igorbruneli/Sites/personal/sharewithme" />
+        </path_mappings>
+      </server>
+    </servers>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/ircmaxell/password-compat" />
+      <path value="$PROJECT_DIR$/vendor/easyrdf/easyrdf" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/vendor/masterminds/html5" />
+      <path value="$PROJECT_DIR$/vendor/symfony-cmf/routing" />
+      <path value="$PROJECT_DIR$/vendor/cweagans/composer-patches" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-escaper" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-feed" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/vendor/drupal-composer/drupal-scaffold" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-stdlib" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-diactoros" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/vendor/wikimedia/composer-merge-plugin" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-apcu" />
+      <path value="$PROJECT_DIR$/vendor/asm89/stack-cors" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php54" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/validator" />
+      <path value="$PROJECT_DIR$/vendor/symfony/serializer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php55" />
+      <path value="$PROJECT_DIR$/vendor/stack/builder" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/psr-http-message-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/class-loader" />
+      <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="22" />
+    <option name="width" value="1440" />
+    <option name="height" value="874" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>PHP</id>
+          </State>
+          <State>
+            <id>RegExp</id>
+          </State>
+          <State>
+            <id>UndefinedPHP</id>
+          </State>
+          <State>
+            <id>UnusedPHP</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="sharewithme" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sharewithme" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="sharewithme" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sharewithme" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="sharewithme" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sharewithme" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="sharewithme" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sharewithme" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="custom" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="sharewithme" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sharewithme" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="custom" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="swm_config" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="sharewithme" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sharewithme" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="custom" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="swm_config" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="sharewithme" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sharewithme" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="custom" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="swm_config" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Plugin" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="sharewithme" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sharewithme" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="custom" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="swm_config" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Plugin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Block" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="sharewithme" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sharewithme" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="sharewithme" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sharewithme" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="swm_theme" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="sharewithme" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sharewithme" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="swm_theme" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="$USER_HOME$/.nvm/versions/node/v5.0.0/bin/node" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.debug" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/modules/custom/swm_config" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
+    <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="87b233e0-c757-46e0-bb8f-c79b3fd519fb" name="Default" comment="" />
+      <created>1498303454119</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1498303454119</updated>
+      <workItem from="1498303455324" duration="778000" />
+      <workItem from="1499249949922" duration="166000" />
+      <workItem from="1499255501220" duration="2991000" />
+      <workItem from="1499330586595" duration="267000" />
+      <workItem from="1500710046278" duration="1764000" />
+      <workItem from="1500885113081" duration="588000" />
+      <workItem from="1501073873140" duration="391000" />
+      <workItem from="1501312433922" duration="2596000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="9541000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="22" width="1440" height="874" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2532189" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3979461" sideWeight="0.5028612" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31282586" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3979461" sideWeight="0.49713877" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992327" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/web/modules/custom/swm_config/src/Plugin/Block/ConfigBlock.php</url>
+          <line>39</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/web/modules/custom/swm_config/src/Plugin/Block/ConfigBlock.php</url>
+          <line>55</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/web/modules/custom/swm_config/src/Plugin/Block/ConfigBlock.php</url>
+          <line>24</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="12" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/web/themes/swm_theme/templates/page.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/modules/custom/swm_config/src/Plugin/Block/ConfigBlock.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="80" column="31" lean-forward="false" selection-start-line="80" selection-start-column="12" selection-end-line="80" selection-end-column="31" />
+          <folding>
+            <element signature="e#50#82#0#PHP" expanded="true" />
+            <marker date="1501315060000" expanded="true" signature="1740:1748" ph="ç" />
+            <marker date="1501315060000" expanded="true" signature="1748:1756" ph="õ" />
+            <marker date="1501315060000" expanded="true" signature="1782:1790" ph="ç" />
+            <marker date="1501315060000" expanded="true" signature="1790:1798" ph="ã" />
+            <marker date="1501315060000" expanded="true" signature="1809:1816" ph="ê" />
+            <marker date="1501315060000" expanded="true" signature="1824:1832" ph="í" />
+            <marker date="1501315060000" expanded="true" signature="1846:1854" ph="ã" />
+            <marker date="1501315060000" expanded="true" signature="1879:1887" ph="ç" />
+            <marker date="1501315060000" expanded="true" signature="1887:1895" ph="ã" />
+            <marker date="1501315060000" expanded="true" signature="1908:1916" ph="ç" />
+            <marker date="1501315060000" expanded="true" signature="1916:1924" ph="ã" />
+            <marker date="1501315060000" expanded="true" signature="1961:1969" ph="ç" />
+            <marker date="1501315060000" expanded="true" signature="1969:1977" ph="õ" />
+            <marker date="1501315060000" expanded="true" signature="1987:1995" ph="ã" />
+            <marker date="1501315060000" expanded="true" signature="2065:2073" ph="õ" />
+            <marker date="1501315060000" expanded="true" signature="2094:2102" ph="ã" />
+            <marker date="1501315060000" expanded="true" signature="2115:2123" ph="ç" />
+            <marker date="1501315060000" expanded="true" signature="2123:2131" ph="õ" />
+            <marker date="1501315060000" expanded="true" signature="2161:2169" ph="í" />
+            <marker date="1501315060000" expanded="true" signature="2349:2357" ph="é" />
+            <marker date="1501315060000" expanded="true" signature="2368:2376" ph="ó" />
+            <marker date="1501315060000" expanded="true" signature="2445:2452" ph="’" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/themes/swm_theme/templates/page.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/modules/custom/swm_config/src/Plugin/Block/ConfigBlock.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#50#82#0#PHP" expanded="true" />
+            <marker date="1501315060000" expanded="true" signature="1740:1748" ph="ç" />
+            <marker date="1501315060000" expanded="true" signature="1748:1756" ph="õ" />
+            <marker date="1501315060000" expanded="true" signature="1782:1790" ph="ç" />
+            <marker date="1501315060000" expanded="true" signature="1790:1798" ph="ã" />
+            <marker date="1501315060000" expanded="true" signature="1809:1816" ph="ê" />
+            <marker date="1501315060000" expanded="true" signature="1824:1832" ph="í" />
+            <marker date="1501315060000" expanded="true" signature="1846:1854" ph="ã" />
+            <marker date="1501315060000" expanded="true" signature="1879:1887" ph="ç" />
+            <marker date="1501315060000" expanded="true" signature="1887:1895" ph="ã" />
+            <marker date="1501315060000" expanded="true" signature="1908:1916" ph="ç" />
+            <marker date="1501315060000" expanded="true" signature="1916:1924" ph="ã" />
+            <marker date="1501315060000" expanded="true" signature="1961:1969" ph="ç" />
+            <marker date="1501315060000" expanded="true" signature="1969:1977" ph="õ" />
+            <marker date="1501315060000" expanded="true" signature="1987:1995" ph="ã" />
+            <marker date="1501315060000" expanded="true" signature="2065:2073" ph="õ" />
+            <marker date="1501315060000" expanded="true" signature="2094:2102" ph="ã" />
+            <marker date="1501315060000" expanded="true" signature="2115:2123" ph="ç" />
+            <marker date="1501315060000" expanded="true" signature="2123:2131" ph="õ" />
+            <marker date="1501315060000" expanded="true" signature="2161:2169" ph="í" />
+            <marker date="1501315060000" expanded="true" signature="2349:2357" ph="é" />
+            <marker date="1501315060000" expanded="true" signature="2368:2376" ph="ó" />
+            <marker date="1501315060000" expanded="true" signature="2445:2452" ph="’" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/themes/swm_theme/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/themes/swm_theme/assets/sass/_globals.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1425">
+          <caret line="95" column="24" lean-forward="false" selection-start-line="95" selection-start-column="24" selection-end-line="95" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/themes/swm_theme/assets/sass/_buttons.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/themes/swm_theme/assets/sass/_fonts.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/themes/swm_theme/assets/sass/_default-variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1110">
+          <caret line="74" column="31" lean-forward="false" selection-start-line="74" selection-start-column="31" selection-end-line="74" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/themes/swm_theme/assets/sass/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/themes/swm_theme/assets/sass/_overrides.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/themes/swm_theme/templates/page.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1590">
+          <caret line="106" column="34" lean-forward="false" selection-start-line="106" selection-start-column="34" selection-end-line="106" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/modules/custom/swm_config/swm_config.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/modules/custom/swm_config/src/Plugin/Block/ConfigBlock.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="88" column="8" lean-forward="false" selection-start-line="88" selection-start-column="8" selection-end-line="88" selection-end-column="8" />
+          <folding>
+            <element signature="e#50#82#0#PHP" expanded="true" />
+            <marker date="1501315060000" expanded="true" signature="1740:1748" ph="ç" />
+            <marker date="1501315060000" expanded="true" signature="1748:1756" ph="õ" />
+            <marker date="1501315060000" expanded="true" signature="1782:1790" ph="ç" />
+            <marker date="1501315060000" expanded="true" signature="1790:1798" ph="ã" />
+            <marker date="1501315060000" expanded="true" signature="1809:1816" ph="ê" />
+            <marker date="1501315060000" expanded="true" signature="1824:1832" ph="í" />
+            <marker date="1501315060000" expanded="true" signature="1846:1854" ph="ã" />
+            <marker date="1501315060000" expanded="true" signature="1879:1887" ph="ç" />
+            <marker date="1501315060000" expanded="true" signature="1887:1895" ph="ã" />
+            <marker date="1501315060000" expanded="true" signature="1908:1916" ph="ç" />
+            <marker date="1501315060000" expanded="true" signature="1916:1924" ph="ã" />
+            <marker date="1501315060000" expanded="true" signature="1961:1969" ph="ç" />
+            <marker date="1501315060000" expanded="true" signature="1969:1977" ph="õ" />
+            <marker date="1501315060000" expanded="true" signature="1987:1995" ph="ã" />
+            <marker date="1501315060000" expanded="true" signature="2065:2073" ph="õ" />
+            <marker date="1501315060000" expanded="true" signature="2094:2102" ph="ã" />
+            <marker date="1501315060000" expanded="true" signature="2115:2123" ph="ç" />
+            <marker date="1501315060000" expanded="true" signature="2123:2131" ph="õ" />
+            <marker date="1501315060000" expanded="true" signature="2161:2169" ph="í" />
+            <marker date="1501315060000" expanded="true" signature="2349:2357" ph="é" />
+            <marker date="1501315060000" expanded="true" signature="2368:2376" ph="ó" />
+            <marker date="1501315060000" expanded="true" signature="2445:2452" ph="’" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/themes/swm_theme/swm_theme.theme">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="51" lean-forward="false" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/modules/custom/swm_config/swm_config.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/modules/custom/swm_config/src/Plugin/Block/ConfigBlock.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="88" column="8" lean-forward="false" selection-start-line="88" selection-start-column="8" selection-end-line="88" selection-end-column="8" />
+          <folding>
+            <element signature="e#50#82#0#PHP" expanded="true" />
+            <marker date="1501315060000" expanded="true" signature="1740:1748" ph="ç" />
+            <marker date="1501315060000" expanded="true" signature="1748:1756" ph="õ" />
+            <marker date="1501315060000" expanded="true" signature="1782:1790" ph="ç" />
+            <marker date="1501315060000" expanded="true" signature="1790:1798" ph="ã" />
+            <marker date="1501315060000" expanded="true" signature="1809:1816" ph="ê" />
+            <marker date="1501315060000" expanded="true" signature="1824:1832" ph="í" />
+            <marker date="1501315060000" expanded="true" signature="1846:1854" ph="ã" />
+            <marker date="1501315060000" expanded="true" signature="1879:1887" ph="ç" />
+            <marker date="1501315060000" expanded="true" signature="1887:1895" ph="ã" />
+            <marker date="1501315060000" expanded="true" signature="1908:1916" ph="ç" />
+            <marker date="1501315060000" expanded="true" signature="1916:1924" ph="ã" />
+            <marker date="1501315060000" expanded="true" signature="1961:1969" ph="ç" />
+            <marker date="1501315060000" expanded="true" signature="1969:1977" ph="õ" />
+            <marker date="1501315060000" expanded="true" signature="1987:1995" ph="ã" />
+            <marker date="1501315060000" expanded="true" signature="2065:2073" ph="õ" />
+            <marker date="1501315060000" expanded="true" signature="2094:2102" ph="ã" />
+            <marker date="1501315060000" expanded="true" signature="2115:2123" ph="ç" />
+            <marker date="1501315060000" expanded="true" signature="2123:2131" ph="õ" />
+            <marker date="1501315060000" expanded="true" signature="2161:2169" ph="í" />
+            <marker date="1501315060000" expanded="true" signature="2349:2357" ph="é" />
+            <marker date="1501315060000" expanded="true" signature="2368:2376" ph="ó" />
+            <marker date="1501315060000" expanded="true" signature="2445:2452" ph="’" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/themes/swm_theme/swm_theme.theme">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="51" lean-forward="false" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/modules/betterlogin/betterlogin.info.yml" />
+    <entry file="file://$PROJECT_DIR$/web/modules/betterlogin/betterlogin.libraries.yml" />
+    <entry file="file://$PROJECT_DIR$/web/modules/betterlogin/betterlogin.module" />
+    <entry file="file://$PROJECT_DIR$/web/modules/betterlogin/templates/page--user--login.html.twig" />
+    <entry file="file://$PROJECT_DIR$/web/themes/swm_theme/templates/blocks/swm-theme-config-block.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="661">
+          <caret line="58" column="48" lean-forward="false" selection-start-line="58" selection-start-column="48" selection-end-line="58" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/themes/swm_theme/swm_theme.theme">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="51" lean-forward="false" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/themes/swm_theme/assets/sass/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/themes/swm_theme/assets/sass/_overrides.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/themes/swm_theme/assets/sass/_default-variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="876">
+          <caret line="116" column="0" lean-forward="true" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/themes/swm_theme/assets/sass/_fonts.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/themes/swm_theme/assets/sass/_buttons.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/themes/swm_theme/assets/sass/_globals.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="95" column="24" lean-forward="false" selection-start-line="95" selection-start-column="24" selection-end-line="95" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/themes/swm_theme/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/core/lib/Drupal/Core/Url.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="140" column="25" lean-forward="false" selection-start-line="140" selection-start-column="25" selection-end-line="140" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/core/lib/Drupal/Core/Link.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="73" column="25" lean-forward="false" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/core/includes/bootstrap.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="579" column="0" lean-forward="false" selection-start-line="579" selection-start-column="0" selection-end-line="579" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/themes/swm_theme/templates/page.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/http-kernel/HttpKernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.composer/vendor/drush/drush/drush">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="109" column="3" lean-forward="false" selection-start-line="109" selection-start-column="3" selection-end-line="109" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/modules/custom/swm_config/src/Plugin/Block/ConfigBlock.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1245">
+          <caret line="83" column="34" lean-forward="true" selection-start-line="83" selection-start-column="34" selection-end-line="83" selection-end-column="34" />
+          <folding>
+            <element signature="e#50#82#0#PHP" expanded="true" />
+            <marker date="1501315060000" expanded="true" signature="1740:1748" ph="ç" />
+            <marker date="1501315060000" expanded="true" signature="1748:1756" ph="õ" />
+            <marker date="1501315060000" expanded="true" signature="1782:1790" ph="ç" />
+            <marker date="1501315060000" expanded="true" signature="1790:1798" ph="ã" />
+            <marker date="1501315060000" expanded="true" signature="1809:1816" ph="ê" />
+            <marker date="1501315060000" expanded="true" signature="1824:1832" ph="í" />
+            <marker date="1501315060000" expanded="true" signature="1846:1854" ph="ã" />
+            <marker date="1501315060000" expanded="true" signature="1879:1887" ph="ç" />
+            <marker date="1501315060000" expanded="true" signature="1887:1895" ph="ã" />
+            <marker date="1501315060000" expanded="true" signature="1908:1916" ph="ç" />
+            <marker date="1501315060000" expanded="true" signature="1916:1924" ph="ã" />
+            <marker date="1501315060000" expanded="true" signature="1961:1969" ph="ç" />
+            <marker date="1501315060000" expanded="true" signature="1969:1977" ph="õ" />
+            <marker date="1501315060000" expanded="true" signature="1987:1995" ph="ã" />
+            <marker date="1501315060000" expanded="true" signature="2065:2073" ph="õ" />
+            <marker date="1501315060000" expanded="true" signature="2094:2102" ph="ã" />
+            <marker date="1501315060000" expanded="true" signature="2115:2123" ph="ç" />
+            <marker date="1501315060000" expanded="true" signature="2123:2131" ph="õ" />
+            <marker date="1501315060000" expanded="true" signature="2161:2169" ph="í" />
+            <marker date="1501315060000" expanded="true" signature="2349:2357" ph="é" />
+            <marker date="1501315060000" expanded="true" signature="2368:2376" ph="ó" />
+            <marker date="1501315060000" expanded="true" signature="2445:2452" ph="’" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/modules/custom/swm_config/swm_config.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/modules/custom/swm_config/swm_config.features.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/modules/custom/swm_config/swm_config.info.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
