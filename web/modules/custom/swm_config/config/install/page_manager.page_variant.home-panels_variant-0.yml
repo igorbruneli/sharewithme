@@ -4,7 +4,6 @@ dependencies:
   config:
     - page_manager.page.home
   module:
-    - group
     - panels
     - swm_config
 id: home-panels_variant-0
@@ -12,15 +11,6 @@ label: home-variant
 variant: panels_variant
 variant_settings:
   blocks:
-    804c80ad-3582-49ac-a335-17c89f7de828:
-      id: group_operations
-      label: 'Group operations'
-      provider: group
-      label_display: visible
-      region: content
-      weight: 0
-      uuid: 804c80ad-3582-49ac-a335-17c89f7de828
-      context_mapping: {  }
     b498df6b-4afb-4b16-88f4-9b58936a82f0:
       id: config_block
       label: 'Create a group Block'

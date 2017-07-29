@@ -22,7 +22,11 @@
     "drupal/admin_toolbar": "^1.18",
     "drupal/pathauto": "^1.0",
     "drupal/views_slideshow": "^4.4",
-    "drupal/group": "^1.0-rc1"
+    "drupal/group": "^1.0-rc1",
+    "drupal/require_login": "^1.10",
+    "drupal/linkit": "^4.3",
+    "drupal/typed_data": "^1.0-alpha1",
+    "drupal/rules": "^3.0-alpha3"
   },
   "require-dev": {
   },
@@ -62,6 +66,9 @@
     "patches": {
       "drupal/core": {
         "Improve Views integration for DateRange": "https://www.drupal.org/files/issues/0001-Issue-2786577-Improve-the-Views-integration-for-Date_3.patch"
+      },
+      "drupal/require_login": {
+        "Infinite redirect loop": "https://www.drupal.org/files/issues/infinite_loop-2881063-9.patch"
       }
     }
   }

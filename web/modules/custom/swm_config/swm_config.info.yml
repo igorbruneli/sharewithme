@@ -2,6 +2,9 @@ name: 'SWM Config'
 type: module
 core: 8.x
 dependencies:
+  - Linkit
+  - admin_toolbar
+  - admin_toolbar_tools
   - block
   - block_content
   - comment
@@ -19,9 +22,11 @@ dependencies:
   - path
   - pathauto
   - rdf
+  - rules
   - swm_config
   - system
   - taxonomy
   - text
+  - typed_data
   - user
   - views
