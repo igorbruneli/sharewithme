@@ -6,6 +6,7 @@ dependencies:
   module:
     - panels
     - swm_config
+    - user
 id: home-panels_variant-0
 label: home-variant
 variant: panels_variant
@@ -19,6 +20,15 @@ variant_settings:
       region: content
       weight: 1
       uuid: b498df6b-4afb-4b16-88f4-9b58936a82f0
+      context_mapping: {  }
+    4f51cf32-35c0-4bdb-bdec-d790258b38e7:
+      id: user_login_block
+      label: 'User Login'
+      provider: user
+      label_display: visible
+      region: content
+      weight: 0
+      uuid: 4f51cf32-35c0-4bdb-bdec-d790258b38e7
       context_mapping: {  }
   id: panels_variant
   uuid: bb686575-0018-4df9-bb12-09317faefd7a
