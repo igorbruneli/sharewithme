@@ -16,6 +16,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
 @import url("//hello.myfonts.net/count/332cc3");
 html {
   font-family: sans-serif;
@@ -7916,6 +7917,12 @@ body.toolbar-fixed.toolbar-vertical.toolbar-tray-open.toolbar-fixed .toolbar-tra
   width: 240px;
 }
 
+/* Font (Montserrat) */
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*jQuery UI style overrides.*/
 /**
  * jQuery UI autocomplete widget style overrides.
  *
@@ -7963,15 +7970,15 @@ body.toolbar-fixed.toolbar-vertical.toolbar-tray-open.toolbar-fixed .toolbar-tra
 
 body {
   margin-top: 0;
-  background-color: black;
+  background-color: #f0f0f0;
 }
 
-NOOB WTF ahh
-ol, ul {
+ol,
+ul {
   padding-left: 1.5em;
 }
-.popover NOOB WTF ahh
-ol:last-child, .popover ul:last-child {
+.popover ol:last-child, .popover
+ul:last-child {
   margin-bottom: 0;
 }
 
@@ -7979,8 +7986,54 @@ ol:last-child, .popover ul:last-child {
   font-family: Georgia, Arial, Helvetica, sans-serif;
 }
 
+/* Homepage ============================================================= */
 .page-header {
   margin-top: 0;
+}
+
+/* ================== Header Top */
+.menu a {
+  text-transform: uppercase;
+  font-size: 11px !important;
+  color: #333333 !important;
+}
+
+.nav > li > a:hover {
+  background-color: transparent !important;
+  color: #000000 !important;
+}
+
+.navbar-left img {
+  width: 27%;
+}
+
+/* ================== Content */
+#Home_section {
+  padding: 5%;
+}
+
+/* == Title Home h1 */
+.title_homepage {
+  font-size: 50px !important;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.js-quickedit-page-title,
+.page-header {
+  display: none;
+}
+
+#content_home2 {
+  margin-top: 20px;
+}
+
+/* == Login */
+.login_form_home {
+  padding: 5%;
+  background-color: white;
 }
 
 .grid-align-top {

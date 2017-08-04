@@ -15,16 +15,38 @@
 @import "component/tabs";
 @import "component/toolbar";
 
-// jQuery UI style overrides.
+
+
+
+
+
+
+/* Font (Montserrat) */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+/*jQuery UI style overrides.*/
+
 @import "jquery-ui/autocomplete";
 
 body {
   margin-top: 0;
-  background-color: black; 
+  background-color: #f0f0f0;
 }
-NOOB WTF ahh
 
-ol, ul {
+ol,
+ul {
   padding-left: 1.5em;
   .popover &:last-child {
     margin-bottom: 0;
@@ -36,8 +58,84 @@ ol, ul {
 }
 
 
-// Page header.
+
+
+
+
+
+
+
+
+/* Homepage ============================================================= */
+
 .page-header {
   margin-top: 0;
 }
 
+
+
+
+
+
+/* ================== Header Top */
+
+.menu a {
+  text-transform: uppercase;
+  font-size: 11px !important;
+  color: #333333 !important;
+}
+
+.nav>li>a:hover {
+  background-color: transparent !important;
+  color: #000000 !important;
+}
+
+.navbar-left img {
+  width: 27%;
+  ;
+}
+
+
+
+
+
+
+/* ================== Content */
+
+#Home_section {
+
+  padding: 5%;
+}
+
+
+
+
+
+
+
+/* == Title Home h1 */
+
+.title_homepage {
+  font-size: 50px !important;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.js-quickedit-page-title,
+.page-header {
+  display: none;
+}
+
+#content_home2 {
+  margin-top: 20px;
+}
+
+
+/* == Login */
+
+.login_form_home {
+  padding: 5%;
+  background-color: white;
+}
