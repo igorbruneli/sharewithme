@@ -1,0 +1,75 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.group_members
+    - views.view.group_members
+  module:
+    - ctools_block
+    - panels
+    - views
+id: group_members-panels_variant-0
+label: Panels-members
+variant: panels_variant
+variant_settings:
+  blocks:
+    f01cf5f7-3639-4d87-ad22-d7c4d5ae590a:
+      id: 'views_block:group_members-block_1'
+      label: ''
+      provider: views
+      label_display: '0'
+      views_label: ''
+      items_per_page: none
+      region: content
+      weight: 1
+      uuid: f01cf5f7-3639-4d87-ad22-d7c4d5ae590a
+      context_mapping: {  }
+    5127195a-d2bb-426c-908e-a8397c7037dc:
+      id: 'entity_field:group:uuid'
+      label: UUID
+      provider: ctools_block
+      label_display: '0'
+      formatter:
+        label: hidden
+        type: string
+        settings:
+          link_to_entity: false
+        third_party_settings: {  }
+        weight: 0
+      region: content
+      weight: 0
+      uuid: 5127195a-d2bb-426c-908e-a8397c7037dc
+      context_mapping:
+        entity: group
+    b7fccce2-8e9a-4e85-aa6f-60e42ee558f9:
+      id: 'entity_field:group:label'
+      label: Title
+      provider: ctools_block
+      label_display: '0'
+      formatter:
+        label: hidden
+        type: string
+        settings:
+          link_to_entity: false
+        third_party_settings: {  }
+        weight: 0
+      region: content
+      weight: 0
+      uuid: b7fccce2-8e9a-4e85-aa6f-60e42ee558f9
+      context_mapping:
+        entity: group
+  id: panels_variant
+  uuid: 4310024a-7c5c-47e5-9b3d-10d10c2dd4a6
+  label: null
+  weight: 0
+  layout: layout_onecol
+  layout_settings: {  }
+  page_title: Members
+  storage_type: page_manager
+  storage_id: group_members-panels_variant-0
+  builder: standard
+page: group_members
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

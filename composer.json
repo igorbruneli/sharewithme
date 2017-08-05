@@ -70,6 +70,9 @@
       },
       "drupal/require_login": {
         "Infinite redirect loop": "https://www.drupal.org/files/issues/infinite_loop-2881063-9.patch"
+      },
+      "drupal/group": {
+        "Site admin or Group admin should be able to invite users to the group": "https://www.drupal.org/files/issues/ginvite_module_port-2801603-13.patch"
       }
     }
   }

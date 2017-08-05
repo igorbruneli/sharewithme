@@ -1,0 +1,15 @@
+langcode: en
+status: true
+dependencies: {  }
+id: group_members
+label: 'Group Members'
+description: ''
+use_admin_theme: false
+path: '/group/{group}/members'
+access_logic: and
+access_conditions: {  }
+parameters:
+  group:
+    machine_name: group
+    type: 'entity:group'
+    label: Group

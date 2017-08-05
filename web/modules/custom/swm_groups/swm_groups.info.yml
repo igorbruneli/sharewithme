@@ -5,6 +5,7 @@ dependencies:
   - content_translation
   - ctools_block
   - field
+  - ginvite
   - group
   - image
   - language

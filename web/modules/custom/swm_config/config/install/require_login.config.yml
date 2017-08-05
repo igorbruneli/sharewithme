@@ -1,3 +1,0 @@
-deny_message: 'You must login to use this site.'
-excluded_paths: "/home\n"
-auth_path: ''

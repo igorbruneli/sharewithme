@@ -2,29 +2,27 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.group_content.default-group_membership.group_roles
-    - group.content_type.default-group_membership
-id: group_content.default-group_membership.default
+    - group.content_type.default-group_invitation
+id: group_content.default-group_invitation.default
 targetEntityType: group_content
-bundle: default-group_membership
+bundle: default-group_invitation
 mode: default
 content:
   entity_id:
     type: entity_reference_autocomplete
-    weight: 0
+    weight: 1
     settings:
       match_operator: CONTAINS
       size: 60
       placeholder: ''
     region: content
     third_party_settings: {  }
-  group_roles:
-    type: options_buttons
-    weight: 1
+  langcode:
+    type: language_select
+    weight: 0
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
 hidden:
-  langcode: true
   path: true
   uid: true

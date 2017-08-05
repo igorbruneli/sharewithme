@@ -5,5 +5,5 @@ id: default
 label: Default
 description: ''
 creator_membership: true
-creator_wizard: true
+creator_wizard: false
 creator_roles: {  }
