@@ -4,10 +4,10 @@ dependencies:
   module:
     - system
   theme:
-    - swm_theme
-id: swm_theme_branding
-theme: swm_theme
-region: header
+    - bootstrap
+id: bootstrap_branding
+theme: bootstrap
+region: navigation
 weight: 0
 provider: null
 plugin: system_branding_block
@@ -17,6 +17,6 @@ settings:
   provider: system
   label_display: '0'
   use_site_logo: true
-  use_site_name: false
+  use_site_name: true
   use_site_slogan: false
 visibility: {  }
