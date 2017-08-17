@@ -16,7 +16,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-@import url("https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i");
 @import url("//hello.myfonts.net/count/332cc3");
 html {
   font-family: sans-serif;
@@ -7919,7 +7919,7 @@ body.toolbar-fixed.toolbar-vertical.toolbar-tray-open.toolbar-fixed .toolbar-tra
 
 /* Font (Montserrat) */
 * {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 /*jQuery UI style overrides.*/
@@ -7969,17 +7969,8 @@ body.toolbar-fixed.toolbar-vertical.toolbar-tray-open.toolbar-fixed .toolbar-tra
 }
 
 body {
-  margin-top: 0;
-  background-color: #f0f0f0;
-}
-
-ol,
-ul {
-  padding-left: 1.5em;
-}
-.popover ol:last-child, .popover
-ul:last-child {
-  margin-bottom: 0;
+  background-image: url("http://localhost/sharewithme/web/sites/default/files/image/bg.jpg") !important;
+  background-size: cover;
 }
 
 .navbar-default {
@@ -8007,18 +7998,22 @@ ul:last-child {
   width: 27%;
 }
 
-/* ================== Content */
-#Home_section {
-  padding: 5%;
+a.logo.navbar-btn.pull-left {
+  position: relative;
+  top: -109px;
 }
 
+/* ================== Content */
 /* == Title Home h1 */
-.title_homepage {
-  font-size: 50px !important;
-  font-weight: 600;
+#title-home-block h1 {
+  font-size: 55px !important;
+  font-weight: 800;
   text-align: center;
-  padding-top: 1%;
-  padding-bottom: 1%;
+  color: white !important;
+}
+
+#title-home-block h1 > span {
+  color: #01bbd4;
 }
 
 .js-quickedit-page-title,
@@ -8026,16 +8021,20 @@ ul:last-child {
   display: none;
 }
 
-#content_home2 {
-  margin-top: 20px;
-}
-
 /* == Login */
-.login_form_home {
+.user-login-form {
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
   padding: 5%;
   background-color: white;
+  -webkit-box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.35);
+  box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.35);
+  border-top: 3px solid #01bbd4;
 }
 
+/* == Media Quieries */
 .grid-align-top {
   font-size: 0;
 }

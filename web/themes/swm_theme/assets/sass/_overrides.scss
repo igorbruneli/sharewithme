@@ -21,17 +21,17 @@
 
 
 
+
+
+
+
+
 /* Font (Montserrat) */
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i');
 * {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
-
-
-
-
-
 
 
 
@@ -41,29 +41,16 @@
 @import "jquery-ui/autocomplete";
 
 body {
-  margin-top: 0;
-  background-color: #f0f0f0;
+
+  background-image: url('http://localhost/sharewithme/web/sites/default/files/image/bg.jpg') !important;
+  background-size: cover;
 }
 
-ol,
-ul {
-  padding-left: 1.5em;
-  .popover &:last-child {
-    margin-bottom: 0;
-  }
-}
+
 
 .navbar-default {
   font-family: $headings-font-family;
 }
-
-
-
-
-
-
-
-
 
 
 /* Homepage ============================================================= */
@@ -71,10 +58,6 @@ ul {
 .page-header {
   margin-top: 0;
 }
-
-
-
-
 
 
 /* ================== Header Top */
@@ -95,32 +78,27 @@ ul {
   ;
 }
 
-
-
-
+a.logo.navbar-btn.pull-left {
+  position: relative;
+  top: -109px;
+}
 
 
 /* ================== Content */
 
-#Home_section {
-
-  padding: 5%;
-}
-
-
-
-
-
-
 
 /* == Title Home h1 */
 
-.title_homepage {
-  font-size: 50px !important;
-  font-weight: 600;
+#title-home-block h1 {
+  font-size: 55px !important;
+  font-weight: 800;
   text-align: center;
-  padding-top: 1%;
-  padding-bottom: 1%;
+  color: white !important;
+ 
+}
+
+#title-home-block h1>span {
+  color: #01bbd4;
 }
 
 .js-quickedit-page-title,
@@ -128,14 +106,26 @@ ul {
   display: none;
 }
 
-#content_home2 {
-  margin-top: 20px;
-}
+
+
+
 
 
 /* == Login */
 
-.login_form_home {
+.user-login-form {
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
   padding: 5%;
   background-color: white;
+  -webkit-box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.35);
+  box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.35);
+  border-top: 3px solid #01bbd4;
 }
+
+
+
+
+/* == Media Quieries */
