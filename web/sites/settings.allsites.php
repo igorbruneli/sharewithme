@@ -17,7 +17,7 @@ $databases['default']['default'] = array (
 
 $config_directories[CONFIG_SYNC_DIRECTORY] = '../config/'. $sites_subdir . '/sync';
 
-$settings['install_profile'] = 'minimal';
+$settings['install_profile'] = 'standard';
 
 if (file_exists(__DIR__ . '/settings.allsites.local.php')) {
  include __DIR__ . '/settings.allsites.local.php';
