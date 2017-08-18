@@ -55,7 +55,7 @@
  */
 
 $sites = array(
-  '8080.localhost' => 'default',
+  '188.226.163.53/sharewithme/web' => 'default',
 );
 
 if (file_exists(__DIR__ . '/sites.local.php')) {
