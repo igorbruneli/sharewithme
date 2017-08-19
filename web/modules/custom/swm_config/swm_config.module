@@ -15,14 +15,3 @@ function swm_config_preprocess_block(&$variables) {
   }
 
 }
-
-/**
- * @param $entity
- */
-function swm_config_entity_presave(&$entity) {
-    if ($entity->getEntityTypeId() == 'group') {
-        $uuid = $entity->uuid->value;
-        $email = $uuid . '@sharewithme.com';
-        $entity->set('field_group_email', $email);
-    }
-}
