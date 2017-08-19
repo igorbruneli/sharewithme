@@ -12,7 +12,9 @@ label: 'Group Email'
 description: ''
 required: true
 translatable: false
-default_value: {  }
+default_value:
+  -
+    value: '#id#@sharewithme.com'
 default_value_callback: ''
 settings: {  }
 field_type: email
