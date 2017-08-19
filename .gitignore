@@ -78,4 +78,3 @@ web/sites/*/files
 *.eslintrc.json
 *.gitattributes
 *.csslintrc
-
