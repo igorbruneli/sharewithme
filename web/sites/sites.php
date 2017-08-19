@@ -55,7 +55,7 @@
  */
 
 $sites = array(
-  '188.226.163.53.sharewithme.web' => 'default',
+  'locahost' => 'default',
 );
 
 if (file_exists(__DIR__ . '/sites.local.php')) {
