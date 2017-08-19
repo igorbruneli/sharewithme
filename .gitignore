@@ -68,3 +68,14 @@ web/sites/*/files
 # Ignore local files
 *.local.php
 *.local.yml
+
+# Ignore sass-cache files.
+*.sass-cache*
+
+*.idea
+*.editorconfig
+*.eslintignore
+*.eslintrc.json
+*.gitattributes
+*.csslintrc
+
