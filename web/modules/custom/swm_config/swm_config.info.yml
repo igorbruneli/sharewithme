@@ -24,8 +24,6 @@ dependencies:
   - pathauto
   - rdf
   - rules
-  - swm_config
-  - swm_groups
   - system
   - taxonomy
   - text
