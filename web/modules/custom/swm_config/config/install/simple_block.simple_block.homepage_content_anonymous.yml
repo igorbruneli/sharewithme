@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.basic_html
+id: homepage_content_anonymous
+title: '[Simple Block] Home page content for anonymous users'
+content:
+  value: "<p>Etiam rhoncus. Nam adipiscing. Nunc nulla. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris.</p>\r\n\r\n<p>Curabitur ullamcorper ultricies nisi. Sed augue ipsum, egestas nec, vestibulum et, malesuada adipiscing, dui. Suspendisse feugiat. Ut id nisl quis enim dignissim sagittis.</p>\r\n\r\n<p>Nunc interdum lacus sit amet orci. Nam pretium turpis et arcu. Aenean massa. Phasellus nec sem in justo pellentesque facilisis.</p>\r\n\r\n<p>Phasellus gravida semper nisi. Proin pretium, leo ac pellentesque mollis, felis nunc ultrices eros, sed gravida augue augue mollis justo. Ut non enim eleifend felis pretium feugiat. Praesent egestas tristique nibh.</p>\r\n"
+  format: basic_html

@@ -3,32 +3,34 @@ status: true
 dependencies:
   config:
     - page_manager.page.home
+    - simple_block.simple_block.homepage_content_authenticated
   module:
     - panels
+    - simple_block
     - user
-id: home-panels_variant-0
-label: home-variant-anonymous
+id: home-panels_variant-1
+label: home-variant-authenticated
 variant: panels_variant
 variant_settings:
   blocks:
-    4f51cf32-35c0-4bdb-bdec-d790258b38e7:
-      id: user_login_block
-      label: 'User Login'
-      provider: user
+    301f095b-0a61-4f4c-953c-4c0d73d6f6b2:
+      id: 'simple_block:homepage_content_authenticated'
+      label: '[Simple Block] Home page content for authenticated users'
+      provider: simple_block
       label_display: visible
       region: content
       weight: 0
-      uuid: 4f51cf32-35c0-4bdb-bdec-d790258b38e7
+      uuid: 301f095b-0a61-4f4c-953c-4c0d73d6f6b2
       context_mapping: {  }
   id: panels_variant
-  uuid: bb686575-0018-4df9-bb12-09317faefd7a
+  uuid: 7ba0a5f5-0eef-4342-80ed-8ecee7ffac15
   label: null
   weight: 0
   layout: layout_onecol
   layout_settings: {  }
   page_title: ''
   storage_type: page_manager
-  storage_id: home-panels_variant-0
+  storage_id: home-panels_variant-1
   builder: standard
 page: home
 weight: 0
@@ -36,7 +38,7 @@ selection_criteria:
   -
     id: user_role
     roles:
-      anonymous: anonymous
+      authenticated: authenticated
     negate: false
     context_mapping:
       user: current_user

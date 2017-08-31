@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.basic_html
+id: homepage_content_authenticated
+title: '[Simple Block] Home page content for authenticated users'
+content:
+  value: "<p>Donec mi odio, faucibus at, scelerisque quis, convallis in, nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed aliquam, nisi quis porttitor congue, elit erat euismod orci, ac placerat dolor lectus quis orci. Phasellus blandit leo ut odio. Cras ultricies mi eu turpis hendrerit fringilla.</p>\r\n\r\n<p>Phasellus ullamcorper ipsum rutrum nunc. Proin pretium, leo ac pellentesque mollis, felis nunc ultrices eros, sed gravida augue augue mollis justo. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Nullam cursus lacinia erat.</p>\r\n\r\n<p>In auctor lobortis lacus. Aenean commodo ligula eget dolor. Aliquam eu nunc. Nam adipiscing.</p>\r\n"
+  format: basic_html

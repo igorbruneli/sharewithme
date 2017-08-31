@@ -24,6 +24,8 @@ dependencies:
   - pathauto
   - rdf
   - rules
+  - simple_block
+  - swm_groups
   - system
   - taxonomy
   - text
