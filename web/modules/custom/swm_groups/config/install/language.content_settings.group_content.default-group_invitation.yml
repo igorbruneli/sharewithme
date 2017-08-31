@@ -1,0 +1,15 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.content_type.default-group_invitation
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+id: group_content.default-group_invitation
+target_entity_type_id: group_content
+target_bundle: default-group_invitation
+default_langcode: site_default
+language_alterable: false

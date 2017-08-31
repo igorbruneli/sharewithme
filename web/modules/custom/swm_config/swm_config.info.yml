@@ -9,8 +9,10 @@ dependencies:
   - comment
   - content_translation
   - ctools_block
+  - editor
   - field
   - file
+  - filter
   - ginvite
   - group
   - help

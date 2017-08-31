@@ -3,8 +3,10 @@ status: true
 dependencies:
   config:
     - page_manager.page.home
+    - simple_block.simple_block.homepage_content_authenticated
   module:
     - panels
+    - simple_block
     - user
 id: home-panels_variant-0
 label: home-variant-anonymous
@@ -17,8 +19,17 @@ variant_settings:
       provider: user
       label_display: visible
       region: content
-      weight: 0
+      weight: 1
       uuid: 4f51cf32-35c0-4bdb-bdec-d790258b38e7
+      context_mapping: {  }
+    a7678342-2af3-48e6-9ff3-b7009816e0fb:
+      id: 'simple_block:homepage_content_authenticated'
+      label: '[Simple Block] Home page content for authenticated users'
+      provider: simple_block
+      label_display: visible
+      region: content
+      weight: 0
+      uuid: a7678342-2af3-48e6-9ff3-b7009816e0fb
       context_mapping: {  }
   id: panels_variant
   uuid: bb686575-0018-4df9-bb12-09317faefd7a
