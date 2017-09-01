@@ -34,3 +34,5 @@ dependencies:
   - typed_data
   - user
   - views
+  - registration_link
+package: SWM

@@ -16,3 +16,4 @@ dependencies:
   - swm_config
   - user
   - views
+package: SWM
