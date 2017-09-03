@@ -1,43 +1,3 @@
-/**
- * Default Variables.
- *
- * Modify this file to provide default Bootstrap Framework variables. The
- * Bootstrap Framework will not override any variables defined here because it
- * uses the `!default` flag which will only set their default if not already
- * defined here.
- *
- * You can copy existing variables directly from the following file:
- * ./THEMENAME/bootstrap/assets/stylesheets/bootstrap/_variables.scss
- */
-
-// Set the proper directory for the Bootstrap Glyphicon font.
-$icon-font-path: '../bootstrap/fonts/bootstrap/';
-
-// Colors
-
-$c-white:                 #ffffff;
-$c-black:                 #000000;
-
-$c-orange-light:          #D09434;
-$c-orange:                #B4732F;
-
-$c-gray-light:            #d6d5d4;
-$c-gray-dark:             #333333;
-
-$c-red-light:             #C00C00;
-$c-red:                   #BF2F2F;
-$c-red-dark:              #910000;
-
-$c-blue: #399189;
-
-
-// Slider height
-$slider-height: 260px;
-
-// Header min height
-$header-height:           124px;
-
-
 //$bootstrap-sass-asset-helper: false;
 //
 // Variables
@@ -61,58 +21,63 @@ $header-height:           124px;
 //$brand-warning:         #f0ad4e;
 //$brand-danger:          #d9534f;
 
+// Custom theme colors
+
+$c-white:                 #ffffff;
+$c-black:                 #000000;
+
+$c-blue:                  #00bbd4;
+$c-gray-dark:             #333333;
+
 
 //== Scaffolding
 //
 //## Settings for some of the most global styles.
 
 //** Background color for `<body>`.
-//$body-bg:               #fff;
+$body-bg:               $c-white;
 //** Global text color on `<body>`.
 $text-color:            $c-gray-dark;
 
 //** Global textual link color.
 $link-color:            $c-blue;
 //** Link hover color set via `darken()` function.
-// $link-hover-color:      darken($link-color, 15%);
 $link-hover-color:      $link-color;
 //** Link hover decoration.
-//$link-hover-decoration: none;
+$link-hover-decoration: none;
 
 
 //== Typography
 //
 //## Font, line-height, and color for body text, headings, and more.
 
-$font-family-sans-serif:  Lucida, Arial, Helvetica, sans-serif;
-//$font-family-serif:       Georgia, "Times New Roman", Times, serif;
+$font-family-sans-serif:    'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-family-serif:         'Montserrat', Georgia, "Times New Roman", Times, serif;
 //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
 //$font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace;
 //$font-family-base:        $font-family-sans-serif;
 
-$font-size-base:          12px;
+$font-size-base:          16px;
 //$font-size-large:         ceil(($font-size-base * 1.25)); // ~18px
 //$font-size-small:         ceil(($font-size-base * 0.85)); // ~12px
 
 //$font-size-h1:            floor(($font-size-base * 2.6)); // ~36px
-$font-size-h2:            30px;
+//$font-size-h2:            floor(($font-size-base * 2.15)); // ~30px
 //$font-size-h3:            ceil(($font-size-base * 1.7)); // ~24px
 //$font-size-h4:            ceil(($font-size-base * 1.25)); // ~18px
 //$font-size-h5:            $font-size-base;
 //$font-size-h6:            ceil(($font-size-base * 0.85)); // ~12px
 
 //** Unit-less `line-height` for use in components like buttons.
-$line-height-base:        1.428571429; // 20/14
+//$line-height-base:        1.428571429; // 20/14
 //** Computed "line-height" (`font-size` * `line-height`) for use with `margin`, `padding`, etc.
-$line-height-computed:    floor(($font-size-base * $line-height-base)); // ~20px
+//$line-height-computed:    floor(($font-size-base * $line-height-base)); // ~20px
 
 //** By default, this inherits from the `<body>`.
-$headings-font-family:    Georgia, Arial, Helvetica, sans-serif;
-$headings-font-weight:    normal;
+//$headings-font-family:    inherit;
+//$headings-font-weight:    500;
 //$headings-line-height:    1.1;
-$headings-color:          $c-gray-dark;
-
-
+//$headings-color:          inherit;
 
 
 //== Iconography
@@ -150,7 +115,7 @@ $headings-color:          $c-gray-dark;
 //$line-height-large:         1.3333333; // extra decimals for Win 8.1 Chrome
 //$line-height-small:         1.5;
 
-$border-radius-base:        2px;
+//$border-radius-base:        4px;
 //$border-radius-large:       6px;
 //$border-radius-small:       3px;
 
@@ -192,12 +157,12 @@ $border-radius-base:        2px;
 
 //$btn-font-weight:                normal;
 
-$btn-default-color:              $c-gray-dark;
-$btn-default-bg:                 $c-red-dark;
+//$btn-default-color:              #333;
+//$btn-default-bg:                 #fff;
 //$btn-default-border:             #ccc;
 
 //$btn-primary-color:              #fff;
-$btn-primary-bg:                 $c-red-dark;
+//$btn-primary-bg:                 $brand-primary;
 //$btn-primary-border:             darken($btn-primary-bg, 5%);
 
 //$btn-success-color:              #fff;
@@ -205,7 +170,7 @@ $btn-primary-bg:                 $c-red-dark;
 //$btn-success-border:             darken($btn-success-bg, 5%);
 
 //$btn-info-color:                 #fff;
-$btn-info-bg:                    $c-red-dark;
+//$btn-info-bg:                    $brand-info;
 //$btn-info-border:                darken($btn-info-bg, 5%);
 
 //$btn-warning-color:              #fff;
@@ -219,7 +184,7 @@ $btn-info-bg:                    $c-red-dark;
 //$btn-link-disabled-color:        $gray-light;
 
 // Allows for customizing button radius independently from global border radius
-$btn-border-radius-base:         5px;
+//$btn-border-radius-base:         $border-radius-base;
 //$btn-border-radius-large:        $border-radius-large;
 //$btn-border-radius-small:        $border-radius-small;
 
@@ -405,21 +370,20 @@ $btn-border-radius-base:         5px;
 //##
 
 // Basics of a navbar
-//$navbar-height:                    60px;
-$navbar-margin-top:                  3px;
-$navbar-margin-bottom:               3px;
-$navbar-border:                      0;
+//$navbar-height:                    50px;
+//$navbar-margin-bottom:             $line-height-computed;
+//$navbar-border-radius:             $border-radius-base;
 //$navbar-padding-horizontal:        floor(($grid-gutter-width / 2));
 //$navbar-padding-vertical:          (($navbar-height - $line-height-computed) / 2);
 //$navbar-collapse-max-height:       340px;
 
-//$navbar-default-color:             $c-white;
-//$navbar-default-bg:                transparent;
-//$navbar-default-border:            transparent;
+//$navbar-default-color:             #777;
+//$navbar-default-bg:                #f8f8f8;
+//$navbar-default-border:            darken($navbar-default-bg, 6.5%);
 
 // Navbar links
-//$navbar-default-link-color:                $c-white;
-//$navbar-default-link-hover-color:          $c-white;
+//$navbar-default-link-color:                #777;
+//$navbar-default-link-hover-color:          #333;
 //$navbar-default-link-hover-bg:             transparent;
 //$navbar-default-link-active-color:         #555;
 //$navbar-default-link-active-bg:            darken($navbar-default-bg, 6.5%);
@@ -469,7 +433,7 @@ $navbar-border:                      0;
 
 //=== Shared nav styles
 //$nav-link-padding:                          10px 15px;
-//$nav-link-hover-bg:                         $c-red-dark;
+//$nav-link-hover-bg:                         $gray-lighter;
 
 //$nav-disabled-link-color:                   $gray-light;
 //$nav-disabled-link-hover-color:             $gray-light;
@@ -477,9 +441,9 @@ $navbar-border:                      0;
 //== Tabs
 //$nav-tabs-border-color:                     #ddd;
 
-//$nav-tabs-link-hover-border-color:          $c-red-dark;
+//$nav-tabs-link-hover-border-color:          $gray-lighter;
 
-//$nav-tabs-active-link-hover-bg:             $c-red-dark;
+//$nav-tabs-active-link-hover-bg:             $body-bg;
 //$nav-tabs-active-link-hover-color:          $gray;
 //$nav-tabs-active-link-hover-border-color:   #ddd;
 
@@ -496,17 +460,17 @@ $navbar-border:                      0;
 //
 //##
 
-$pagination-color:                     $c-red-dark;
+//$pagination-color:                     $link-color;
 //$pagination-bg:                        #fff;
-$pagination-border:                    $c-red-dark;
+//$pagination-border:                    #ddd;
 
-$pagination-hover-color:               $c-white;
-$pagination-hover-bg:                  $c-red-dark;
-$pagination-hover-border:              $c-red-dark;
+//$pagination-hover-color:               $link-hover-color;
+//$pagination-hover-bg:                  $gray-lighter;
+//$pagination-hover-border:              #ddd;
 
 //$pagination-active-color:              #fff;
-$pagination-active-bg:                 $c-red-dark;
-$pagination-active-border:             $c-red-dark;
+//$pagination-active-bg:                 $brand-primary;
+//$pagination-active-border:             $brand-primary;
 
 //$pagination-disabled-color:            $gray-light;
 //$pagination-disabled-bg:               #fff;
@@ -809,8 +773,8 @@ $pagination-active-border:             $c-red-dark;
 //
 //##
 
-$well-bg:                     transparent;
-$well-border:                 transparent;
+//$well-bg:                     #f5f5f5;
+//$well-border:                 darken($well-bg, 7%);
 
 
 //== Badges
@@ -836,16 +800,16 @@ $well-border:                 transparent;
 //
 //##
 
-$breadcrumb-padding-vertical:   20px;
-$breadcrumb-padding-horizontal:  0px;
+//$breadcrumb-padding-vertical:   8px;
+//$breadcrumb-padding-horizontal: 15px;
 //** Breadcrumb background color
-$breadcrumb-bg:                 transparent;
+//$breadcrumb-bg:                 #f5f5f5;
 //** Breadcrumb text color
 //$breadcrumb-color:              #ccc;
 //** Text color of current page in the breadcrumb
 //$breadcrumb-active-color:       $gray-light;
 //** Textual separator for between breadcrumb elements
-$breadcrumb-separator:          "›";
+//$breadcrumb-separator:          "/";
 
 
 //== Carousel
@@ -916,4 +880,3 @@ $breadcrumb-separator:          "›";
 //$dl-horizontal-breakpoint:    $grid-float-breakpoint;
 //** Horizontal line color.
 //$hr-border:                   $gray-lighter;
-  

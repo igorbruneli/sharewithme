@@ -1,5 +1,5 @@
 
-// Bootstrap button include
+// Bootstrap default button include
 // ----------------------------------------------------------------------------
 
 @mixin btn {
@@ -45,55 +45,5 @@
     cursor: $cursor-disabled;
     @include opacity(.65);
     @include box-shadow(none);
-  }
-}
-
-
-// Block titles
-// ----------------------------------------------------------------------------
-
-@mixin block-title() {
-  @include clearfix();
-  background: transparent url('../img/pattern-background.svg') no-repeat top center;
-  background-size: cover;
-  padding: 60px 0 30px;
-  margin-bottom: 34px;
-  margin-top: 5px;
-
-  h2 {
-    float: left;
-    margin: 0;
-  }
-
-  a {
-    @include btn;
-    @include tl-button;
-    @include tb-button--icon-more;
-    float: right;
-  }
-}
-
-
-// Block shadows
-// ----------------------------------------------------------------------------
-@mixin block-shadow($width) {
-  position: relative;
-  border-bottom: 10px solid transparent;
-
-  &:before {
-    @if ($width == small) {
-      background: $c-white url('../img/block-shadow--small.png') no-repeat center top;
-    }
-
-    @if ($width == large) {
-      background: $c-white url('../img/block-shadow--large.png') no-repeat center top;
-    }
-
-    background-size: contain;
-    content: '';
-    position: absolute;
-    height: 10px;
-    width: 100%;
-    bottom: -10px;
   }
 }

@@ -1,0 +1,14 @@
+
+// Navigation css
+// ----------------------------------------------------------------------------
+
+.nav > li > a {
+  color: $c-gray-dark;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 500;
+
+  &:hover {
+    background-color: transparent;
+  }
+}

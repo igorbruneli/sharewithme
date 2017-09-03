@@ -1,22 +1,33 @@
 
-// Default variables.
+// Default variables
 @import "default-variables";
 
-// Bootstrap Framework.
+
+// Bootstrap Framework
 @import '../../bootstrap/stylesheets/bootstrap';
 
-// Base-theme overrides.
-@import 'overrides';
 
 // Import mixins
 @import "mixins/mixins";
 
+
 // Bootstrap components
 @import "buttons";
+
 
 // Import fonts
 @import "fonts";
 
-// Import custom component styles
 
-// Import specific page styles
+// jQuery UI style overrides
+@import "jquery-ui/autocomplete";
+
+
+// Global css
+@import "globals";
+
+
+// Custom components
+// ----------------------------------------------------------------------------
+
+@import "custom-component/navigation";

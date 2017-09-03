@@ -77,3 +77,6 @@ web/sites/*/files
 *.eslintrc.json
 *.gitattributes
 *.csslintrc
+
+# Ignore macOS system files
+.DS_Store
