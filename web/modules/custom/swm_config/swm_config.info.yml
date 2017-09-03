@@ -25,6 +25,7 @@ dependencies:
   - path
   - pathauto
   - rdf
+  - registration_link
   - rules
   - simple_block
   - swm_groups
@@ -34,5 +35,4 @@ dependencies:
   - typed_data
   - user
   - views
-  - registration_link
 package: SWM
