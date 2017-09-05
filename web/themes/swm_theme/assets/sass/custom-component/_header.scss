@@ -1,7 +1,8 @@
 
-// Buttons css file
+// Header css
 // ----------------------------------------------------------------------------
 
-.button {
-  @include transition(all .5s ease);
+.header-container {
+  min-height: 120px;
+  margin-bottom: 60px;
 }

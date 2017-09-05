@@ -1,0 +1,8 @@
+
+// Forms css
+// ----------------------------------------------------------------------------
+
+.form-control:focus {
+  @include box-shadow(none);
+  border-color: $c-gray-dark;
+}
