@@ -573,6 +573,12 @@ display:
           plugin_id: numeric
       defaults:
         arguments: false
+        pager: false
+      pager:
+        type: some
+        options:
+          items_per_page: 5
+          offset: 0
     cache_metadata:
       max-age: -1
       contexts:
@@ -581,7 +587,6 @@ display:
         - 'languages:language_interface'
         - route
         - url
-        - url.query_args
       tags:
         - 'config:field.storage.user.user_picture'
   page_1:
