@@ -1,0 +1,10 @@
+two_column:
+  label: 'Homepage'
+  category: 'Sharewithme Layouts'
+  template: templates/layouts/homepage
+  default_region: main
+  regions:
+    left:
+      label: Left Side
+    right:
+      label: Right Side

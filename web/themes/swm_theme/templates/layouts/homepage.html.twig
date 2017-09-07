@@ -1,0 +1,33 @@
+{#
+/**
+ * @file
+ * Default theme implementation to display a two-column layout.
+ *
+ * Available variables:
+ * - content: The content for this layout.
+ * - attributes: HTML attributes for the layout <div>.
+ *
+ * @ingroup themeable
+ */
+#}
+{%
+set classes = [
+  'row',
+  'homepage',
+]
+%}
+{% if content %}
+  <div{{ attributes.addClass(classes) }}>
+    {% if content.left %}
+      <div class="col-xs-12 col-md-6">
+        {{ content.left }}
+      </div>
+    {% endif %}
+
+    {% if content.right %}
+      <div class="col-xs-12 col-md-6">
+        {{ content.right }}
+      </div>
+    {% endif %}
+  </div>
+{% endif %}
