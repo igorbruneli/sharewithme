@@ -14,18 +14,20 @@
 set classes = [
   'row',
   'homepage',
+  'homepage--anonymous',
+  'grid-align-middle',
 ]
 %}
 {% if content %}
   <div{{ attributes.addClass(classes) }}>
     {% if content.left %}
-      <div class="col-xs-12 col-md-6">
+      <div class="col-xs-12 col-md-8">
         {{ content.left }}
       </div>
     {% endif %}
 
     {% if content.right %}
-      <div class="col-xs-12 col-md-6">
+      <div class="col-xs-12 col-md-4">
         {{ content.right }}
       </div>
     {% endif %}

@@ -1,7 +1,14 @@
 {% set container = theme.settings.fluid_container ? 'container-fluid' : 'container' %} {# Header page #} {% if page.header_page %} {% block header_page %}
 <div role="header-page" class="header-container {{ container }}">
-  <div class="row">
-    <div class="col-sm-12">
+  <div class="row grid-align-middle">
+    <div class="col-xs-12 col-md-6">
+      {# Header #} {% if page.header %} {% block header %}
+        <div role="heading">
+          {{ page.header }}
+        </div>
+      {% endblock %} {% endif %}
+    </div>
+    <div class="col-xs-12 col-md-6">
       <a class="navbar-left" href="#">
         </a> {{ page.header_page }}
     </div>
@@ -33,11 +40,7 @@
   {% endblock %} {% endif %} {# Main #} {% block main %}
   <div role="main" class="main-container {{ container }} js-quickedit-main-content">
     <div class="row">
-      {# Header #} {% if page.header %} {% block header %}
-      <div class="col-sm-12" role="heading">
-        {{ page.header }}
-      </div>
-      {% endblock %} {% endif %} {# Sidebar First #} {% if page.sidebar_first %} {% block sidebar_first %}
+       {# Sidebar First #} {% if page.sidebar_first %} {% block sidebar_first %}
       <aside class="col-sm-4" role="complementary">
         {{ page.sidebar_first }}
       </aside>

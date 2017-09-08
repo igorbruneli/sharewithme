@@ -3,6 +3,10 @@
 // ----------------------------------------------------------------------------
 
 .header-container {
-  min-height: 120px;
-  margin-bottom: 60px;
+  padding-top: 30px;
+  padding-bottom: 80px;
+
+  .navbar-btn {
+    margin: 0;
+  }
 }
