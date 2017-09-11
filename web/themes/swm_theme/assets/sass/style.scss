@@ -45,3 +45,16 @@
 // ----------------------------------------------------------------------------
 
 @import "pages/homepage";
+
+
+body:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: grey;
+  font-size: 12px;
+  content: 'xs';
+  @media screen and (min-width: $screen-sm-min) {content: 'sm';}
+  @media screen and (min-width: $screen-md-min) {content: 'md';}
+  @media screen and (min-width: $screen-lg-min) {content: 'lg';}
+}

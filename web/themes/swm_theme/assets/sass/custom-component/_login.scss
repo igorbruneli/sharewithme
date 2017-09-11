@@ -4,12 +4,18 @@
 
 .block-user-login-block {
   @include box-shadow(0 0 20px 11px rgba(0, 0, 0, 0.08));
-  padding: 20px 70px 70px 56px;
+  padding: 20px 40px 20px;
+
+  @media screen and (min-width: $screen-md-min) {
+    padding: 20px 70px 20px;
+  }
 
   h2 {
+    display: inline-block;
+    padding: 0 30px;
     font-weight: 600;
-    font-size: 64px;
-    margin: 0 0 60px;
+    font-size: 44px;
+    margin: 0 0 20px;
     position: relative;
 
     &:before {
@@ -23,6 +29,11 @@
       z-index: -1;
       width: 90%;
       height: 17px;
+    }
+
+    @media screen and (min-width: $screen-md-min) {
+      font-size: 64px;
+      margin: 0 0 60px;
     }
   }
 }

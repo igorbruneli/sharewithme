@@ -3,10 +3,19 @@
 // ----------------------------------------------------------------------------
 
 .header-container {
-  padding-top: 30px;
+  padding-top: 10px;
   padding-bottom: 80px;
 
   .navbar-btn {
     margin: 0;
   }
+
+  @media screen and (min-width: $screen-md-min) {
+    padding-top: 30px;
+    padding-bottom: 120px;
+  }
+}
+
+.logo img {
+  @include img-responsive();
 }

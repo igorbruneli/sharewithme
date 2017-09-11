@@ -7385,30 +7385,30 @@ button.close {
 }
 
 @media screen and (min-width: 768px) {
-  .grid-align-top--sm-up {
+  .grid-align-middle--sm-up {
     font-size: 0;
   }
-  .grid-align-top--sm-up > [class^=col-] {
+  .grid-align-middle--sm-up > [class^=col-] {
     float: none;
     display: inline-block;
     vertical-align: middle;
   }
 }
 @media screen and (min-width: 992px) {
-  .grid-align-top--md-up {
+  .grid-align-middle--md-up {
     font-size: 0;
   }
-  .grid-align-top--md-up > [class^=col-] {
+  .grid-align-middle--md-up > [class^=col-] {
     float: none;
     display: inline-block;
     vertical-align: middle;
   }
 }
 @media screen and (min-width: 1200px) {
-  .grid-align-top--lg-up {
+  .grid-align-middle--lg-up {
     font-size: 0;
   }
-  .grid-align-top--lg-up > [class^=col-] {
+  .grid-align-middle--lg-up > [class^=col-] {
     float: none;
     display: inline-block;
     vertical-align: middle;
@@ -7424,30 +7424,30 @@ button.close {
 }
 
 @media screen and (min-width: 768px) {
-  .grid-align-top--sm-up {
+  .grid-align-bottom--sm-up {
     font-size: 0;
   }
-  .grid-align-top--sm-up > [class^=col-] {
+  .grid-align-bottom--sm-up > [class^=col-] {
     float: none;
     display: inline-block;
     vertical-align: bottom;
   }
 }
 @media screen and (min-width: 992px) {
-  .grid-align-top--md-up {
+  .grid-align-bottom--md-up {
     font-size: 0;
   }
-  .grid-align-top--md-up > [class^=col-] {
+  .grid-align-bottom--md-up > [class^=col-] {
     float: none;
     display: inline-block;
     vertical-align: bottom;
   }
 }
 @media screen and (min-width: 1200px) {
-  .grid-align-top--lg-up {
+  .grid-align-bottom--lg-up {
     font-size: 0;
   }
-  .grid-align-top--lg-up > [class^=col-] {
+  .grid-align-bottom--lg-up > [class^=col-] {
     float: none;
     display: inline-block;
     vertical-align: bottom;
@@ -7535,11 +7535,23 @@ a:hover {
 }
 
 .header-container {
-  padding-top: 30px;
+  padding-top: 10px;
   padding-bottom: 80px;
 }
 .header-container .navbar-btn {
   margin: 0;
+}
+@media screen and (min-width: 992px) {
+  .header-container {
+    padding-top: 30px;
+    padding-bottom: 120px;
+  }
+}
+
+.logo img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .nav > li > a {
@@ -7555,12 +7567,19 @@ a:hover {
 .block-user-login-block {
   -webkit-box-shadow: 0 0 20px 11px rgba(0, 0, 0, 0.08);
   box-shadow: 0 0 20px 11px rgba(0, 0, 0, 0.08);
-  padding: 20px 70px 70px 56px;
+  padding: 20px 40px 20px;
+}
+@media screen and (min-width: 992px) {
+  .block-user-login-block {
+    padding: 20px 70px 20px;
+  }
 }
 .block-user-login-block h2 {
+  display: inline-block;
+  padding: 0 30px;
   font-weight: 600;
-  font-size: 64px;
-  margin: 0 0 60px;
+  font-size: 44px;
+  margin: 0 0 20px;
   position: relative;
 }
 .block-user-login-block h2:before {
@@ -7578,13 +7597,66 @@ a:hover {
   width: 90%;
   height: 17px;
 }
+@media screen and (min-width: 992px) {
+  .block-user-login-block h2 {
+    font-size: 64px;
+    margin: 0 0 60px;
+  }
+}
 
 .homepage-anonymous-content {
   color: #333333;
   font-weight: 600;
-  font-size: 56px;
-  line-height: 62px;
+  font-size: 28px;
+  line-height: 36px;
+  margin-bottom: 114px;
+  text-align: center;
 }
 .homepage-anonymous-content a {
   border-bottom: 4px solid #333333;
+}
+@media screen and (min-width: 768px) {
+  .homepage-anonymous-content {
+    font-size: 48px;
+    line-height: 56px;
+    margin-bottom: 74px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .homepage-anonymous-content {
+    font-size: 48px;
+    line-height: 54px;
+    margin-bottom: 0;
+    text-align: left;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .homepage-anonymous-content {
+    font-size: 56px;
+    line-height: 62px;
+  }
+}
+
+body:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: grey;
+  font-size: 12px;
+  content: 'xs';
+}
+@media screen and (min-width: 768px) {
+  body:before {
+    content: 'sm';
+  }
+}
+@media screen and (min-width: 992px) {
+  body:before {
+    content: 'md';
+  }
+}
+@media screen and (min-width: 1200px) {
+  body:before {
+    content: 'lg';
+  }
 }

@@ -1,14 +1,14 @@
 {% set container = theme.settings.fluid_container ? 'container-fluid' : 'container' %} {# Header page #} {% if page.header_page %} {% block header_page %}
 <div role="header-page" class="header-container {{ container }}">
-  <div class="row grid-align-middle">
-    <div class="col-xs-12 col-md-6">
+  <div class="row grid-align-middle--md-up">
+    <div class="col-xs-10 col-md-6">
       {# Header #} {% if page.header %} {% block header %}
         <div role="heading">
           {{ page.header }}
         </div>
       {% endblock %} {% endif %}
     </div>
-    <div class="col-xs-12 col-md-6">
+    <div class="col-md-6 hidden-xs hidden-sm">
       <a class="navbar-left" href="#">
         </a> {{ page.header_page }}
     </div>
