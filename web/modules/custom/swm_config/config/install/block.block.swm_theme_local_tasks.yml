@@ -1,6 +1,8 @@
 langcode: en
 status: true
 dependencies:
+  module:
+    - user
   theme:
     - swm_theme
 id: swm_theme_local_tasks
@@ -16,4 +18,11 @@ settings:
   label_display: '0'
   primary: true
   secondary: true
-visibility: {  }
+visibility:
+  user_role:
+    id: user_role
+    roles:
+      administrator: administrator
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
