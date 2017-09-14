@@ -7467,6 +7467,11 @@ button.close {
 .button .glyphicon {
   display: none;
 }
+.button:focus, .button:focus:active {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  outline: 0;
+}
 
 /**
  * jQuery UI autocomplete widget style overrides.
@@ -7568,13 +7573,21 @@ a:hover {
   -webkit-box-shadow: 0 0 20px 11px rgba(0, 0, 0, 0.08);
   box-shadow: 0 0 20px 11px rgba(0, 0, 0, 0.08);
   padding: 20px 40px 20px;
+  text-align: center;
 }
 @media screen and (min-width: 992px) {
   .block-user-login-block {
     padding: 20px 70px 20px;
   }
 }
-.block-user-login-block h2 {
+@media screen and (min-width: 1200px) {
+  .page-login .block-user-login-block {
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+}
+.block-user-login-block h2,
+.block-user-login-block .page-header {
   display: inline-block;
   padding: 0 30px;
   font-weight: 600;
@@ -7582,7 +7595,8 @@ a:hover {
   margin: 0 0 20px;
   position: relative;
 }
-.block-user-login-block h2:before {
+.block-user-login-block h2:before,
+.block-user-login-block .page-header:before {
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
@@ -7598,10 +7612,21 @@ a:hover {
   height: 17px;
 }
 @media screen and (min-width: 992px) {
-  .block-user-login-block h2 {
+  .block-user-login-block h2,
+  .block-user-login-block .page-header {
     font-size: 64px;
     margin: 0 0 60px;
   }
+}
+.block-user-login-block .page-header {
+  border: 0;
+}
+.block-user-login-block .user-link {
+  display: block;
+  color: #333333;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 6px 0;
 }
 
 .homepage-anonymous-content {

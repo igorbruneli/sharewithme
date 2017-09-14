@@ -1,0 +1,49 @@
+
+// Login component
+// ----------------------------------------------------------------------------
+
+.block-user-login-block {
+  @include box-shadow(0 0 20px 11px rgba(0, 0, 0, 0.08));
+  padding: 20px 40px 20px;
+  text-align: center;
+
+  @media screen and (min-width: $screen-md-min) {
+    padding: 20px 70px 20px;
+  }
+
+  @media screen and (min-width: $screen-lg-min) {
+    .page-login & {
+      margin-left: 60px;
+      margin-right: 60px;
+    }
+  }
+
+  h2,
+  .page-header {
+    @include dashed-title();
+  }
+
+  .page-header {
+    border: 0;
+  }
+
+  .user-links-wrapper {}
+
+  .user-link {
+    display: block;
+    color: $c-gray-dark;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 6px 0;
+  }
+
+  .user-link--login {}
+  .user-link--register {}
+  .user-link--password {}
+}
+
+.page-forgot-password {}
+
+.page-login {}
+
+.page-register {}

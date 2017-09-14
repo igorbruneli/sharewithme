@@ -1,31 +1,37 @@
-<div id="auth_box" class="login">
-  <div id="top_part">
-    <h1 id="the_logo">
-      <a href="{{ url('<front>') }}">
-        <img src="{{ logo }}" alt="{{ site_name }}" />
-      </a>
-    </h1>
-  </div>
-
-  <div id="middle_part">
-    <h2 class="title">{{ title }}</h2>
-
-    {{ messages }}
-
-    {{ page.content }}
-  </div>
-
-  <div id="bottom_part">
-    <div class="password_link">
-      <a href="{{ path('user.pass') }}">{{ 'Forgot your password?'|t }}</a>
+{% set container = theme.settings.fluid_container ? 'container-fluid' : 'container' %} {# Header page #} {% if page.header_page %} {% block header_page %}
+  <div role="header-page" class="header-container {{ container }}">
+    <div class="row grid-align-middle--md-up">
+      <div class="col-xs-10 col-md-6">
+        {# Header #} {% if page.header %} {% block header %}
+          <div role="heading">
+            {{ page.header }}
+          </div>
+        {% endblock %} {% endif %}
+      </div>
+      <div class="col-md-6 hidden-xs hidden-sm">
+        <a class="navbar-left" href="#">
+        </a> {{ page.header_page }}
+      </div>
     </div>
+  </div>
+{% endblock %} {% endif %}
 
-    <div class="register_link">
-      <a href="{{ path('user.register') }}">{{ 'Register a new account'|t }}</a>
-    </div>
+  {{ messages }}
 
-    <div class="back_link">
-      <a href="{{ url('<front>') }}">&larr; {{ 'Back'|t }} {{ site_name }}</a>
+<div class="container page-login">
+  <div class="row">
+    <div class="col-xs-12 col-md-6 col-md-offset-3">
+      <div class="block-user-login-block">
+        {{ page.content }}
+
+        <div class="user-links-wrapper">
+          <a href="{{ path('user.pass') }}" class="user-link user-link--password">{{ 'Forgot your password?'|t }}</a>
+          <a href="{{ path('user.register') }}" class="user-link user-link--register">{{ 'Register a new account'|t }}</a>
+        </div>
+      </div>
     </div>
   </div>
 </div>
+
+
+

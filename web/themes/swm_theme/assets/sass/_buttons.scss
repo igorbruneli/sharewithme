@@ -12,4 +12,10 @@
   .glyphicon {
     display: none;
   }
+
+  &:focus,
+  &:focus:active {
+    @include box-shadow(none);
+    outline: 0;
+  }
 }
