@@ -35,4 +35,5 @@ dependencies:
   - typed_data
   - user
   - views
+  - betterlogin
 package: SWM
