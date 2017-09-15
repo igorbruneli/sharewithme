@@ -15,3 +15,14 @@ function swm_config_preprocess_block(&$variables) {
   }
 
 }
+
+/**
+ * @param                                      $form
+ * @param \Drupal\Core\Form\FormStateInterface $form_state
+ * @param                                      $form_id
+ */
+function swm_config_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
+  if ($form_id == 'user_register_form') {
+    $form['actions']['submit']['#value'] = t('Register');
+  }
+}
