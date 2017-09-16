@@ -1,4 +1,7 @@
 cdn_provider: ''
+schemas:
+  bootstrap: 8000
+  swm_theme: 8000
 favicon:
   mimetype: image/vnd.microsoft.icon
   path: ''
@@ -13,6 +16,17 @@ logo:
   path: ''
   url: ''
   use_default: true
-schemas:
-  bootstrap: 8000
-  swm_theme: 8000
+breadcrumb: '0'
+region_wells:
+  header_page: ''
+  navigation: ''
+  navigation_collapsible: ''
+  header: ''
+  highlighted: ''
+  help: ''
+  content: ''
+  sidebar_first: ''
+  sidebar_second: well
+  footer: ''
+table_responsive: '-1'
+table: ''

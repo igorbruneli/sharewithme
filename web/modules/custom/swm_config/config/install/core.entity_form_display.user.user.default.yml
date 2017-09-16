@@ -2,6 +2,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.user.user.commerce_remote_id
     - field.field.user.user.user_picture
   module:
     - path
@@ -28,6 +29,7 @@ content:
     settings: {  }
     third_party_settings: {  }
 hidden:
+  commerce_remote_id: true
   contact: true
   langcode: true
   timezone: true

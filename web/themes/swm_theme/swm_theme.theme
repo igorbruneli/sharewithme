@@ -29,14 +29,6 @@ function swm_theme_preprocess_region(&$variables) {
   $variables['content'] = $variables['elements']['#children'];
   $variables['region'] = $variables['elements']['#region'];
 
-  // Actual Date
-    $block = \Drupal\block\Entity\Block::load('configblock_2');
-    if ($block) {
-      $variables['actualdate'] = \Drupal::entityTypeManager()
-        ->getViewBuilder('block')
-        ->view($block);
-    }
-
 
   $language = \Drupal::languageManager()->getCurrentLanguage()->getId();
     $variables['language'] = $language;
@@ -57,13 +49,6 @@ function swm_theme_preprocess_region(&$variables) {
         ->view($block);
     }
 
-  // set search form
-  $block = \Drupal\block\Entity\Block::load('searchform');
-  if ($block) {
-    $variables['searchform'] = \Drupal::entityTypeManager()
-      ->getViewBuilder('block')
-      ->view($block);
-  }
 
   // set user login
   $block = \Drupal\block\Entity\Block::load('userlogin');

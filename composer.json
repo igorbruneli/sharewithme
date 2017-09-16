@@ -30,7 +30,9 @@
     "drupal/rules": "^3.0-alpha3",
     "drupal/simple_block": "^1.0-beta1",
     "drupal/registration_link": "^1.0",
-    "drupal/betterlogin": "^1.1"
+    "drupal/betterlogin": "^1.1",
+    "drupal/commerce": "^2.0-rc2"
+
   },
   "require-dev": {
   },

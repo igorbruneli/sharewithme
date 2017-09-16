@@ -4,6 +4,7 @@ core: 8.x
 dependencies:
   - admin_toolbar
   - admin_toolbar_tools
+  - betterlogin
   - block
   - block_content
   - comment
@@ -28,6 +29,7 @@ dependencies:
   - registration_link
   - rules
   - simple_block
+  - swm_commerce
   - swm_groups
   - system
   - taxonomy
@@ -35,5 +37,4 @@ dependencies:
   - typed_data
   - user
   - views
-  - betterlogin
 package: SWM
