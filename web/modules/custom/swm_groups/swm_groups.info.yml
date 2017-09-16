@@ -13,7 +13,6 @@ dependencies:
   - page_manager
   - panels
   - path
-  - swm_config
   - user
   - views
 package: SWM

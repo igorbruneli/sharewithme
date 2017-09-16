@@ -29,8 +29,6 @@ dependencies:
   - registration_link
   - rules
   - simple_block
-  - swm_commerce
-  - swm_groups
   - system
   - taxonomy
   - text
