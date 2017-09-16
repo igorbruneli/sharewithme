@@ -7,6 +7,7 @@ dependencies:
   - betterlogin
   - block
   - block_content
+  - ckeditor
   - comment
   - content_translation
   - ctools_block
@@ -28,6 +29,7 @@ dependencies:
   - rdf
   - registration_link
   - rules
+  - search
   - simple_block
   - system
   - taxonomy

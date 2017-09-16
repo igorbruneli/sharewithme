@@ -1,0 +1,21 @@
+langcode: en
+status: false
+dependencies:
+  module:
+    - group
+  theme:
+    - swm_theme
+id: swm_theme_group_operations
+theme: swm_theme
+region: sidebar_first
+weight: -8
+provider: null
+plugin: group_operations
+settings:
+  id: group_operations
+  label: 'Group operations'
+  provider: group
+  label_display: visible
+  context_mapping:
+    group: '@group.group_route_context:group'
+visibility: {  }
