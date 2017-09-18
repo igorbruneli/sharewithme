@@ -23,6 +23,18 @@ function swm_config_preprocess_block(&$variables) {
  */
 function swm_config_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
   if ($form_id == 'user_register_form') {
-    $form['actions']['submit']['#value'] = t('Register');
+    $form['actions']['submit']['#value'] = t("Let's go");
+    $form['#title'] = t("Register");
+  }
+
+  if ($form_id == 'user_login_form') {
+    $form['actions']['submit']['#value'] = t("Connect");
+    $form['actions']['submit']['#attributes']['class'][] = 'btn-primary';
+  }
+
+  if ($form_id == 'user_pass') {
+    $form['actions']['submit']['#value'] = t("Reset");
+    $form['actions']['submit']['#attributes']['class'][] = 'btn-primary';
+    $form['#title'] = t('Get password');
   }
 }

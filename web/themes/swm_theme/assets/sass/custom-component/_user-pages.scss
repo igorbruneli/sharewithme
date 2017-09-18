@@ -30,11 +30,11 @@
   .user-links-wrapper {}
 
   .user-link {
-    display: block;
+    display: inline-block;
     color: $c-gray-dark;
     font-size: 12px;
     font-weight: 500;
-    padding: 6px 0;
+    padding: 6px 12px;
   }
 
   .user-link--login {}
@@ -42,7 +42,10 @@
   .user-link--password {}
 }
 
-.page-forgot-password {}
+.page-forgot-password .user-pass > .form-item + p {
+  font-size: 12px;
+  padding: 0 0 12px;
+}
 
 .page-login {}
 

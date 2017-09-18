@@ -7622,11 +7622,16 @@ a:hover {
   border: 0;
 }
 .block-user-login-block .user-link {
-  display: block;
+  display: inline-block;
   color: #333333;
   font-size: 12px;
   font-weight: 500;
-  padding: 6px 0;
+  padding: 6px 12px;
+}
+
+.page-forgot-password .user-pass > .form-item + p {
+  font-size: 12px;
+  padding: 0 0 12px;
 }
 
 .homepage-anonymous-content {
