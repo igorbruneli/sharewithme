@@ -7570,8 +7570,8 @@ a:hover {
 }
 
 .block-user-login-block {
-  -webkit-box-shadow: 0 0 20px 11px rgba(0, 0, 0, 0.08);
-  box-shadow: 0 0 20px 11px rgba(0, 0, 0, 0.08);
+  -webkit-box-shadow: 0 0 20px 11px rgba(0, 0, 0, 0.04);
+  box-shadow: 0 0 20px 11px rgba(0, 0, 0, 0.04);
   padding: 20px 40px 20px;
   text-align: center;
 }
