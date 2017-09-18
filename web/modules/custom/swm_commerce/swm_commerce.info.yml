@@ -1,0 +1,29 @@
+name: 'SWM Commerce'
+type: module
+core: 8.x
+dependencies:
+  - address
+  - commerce
+  - commerce_cart
+  - commerce_log
+  - commerce_order
+  - commerce_payment
+  - commerce_price
+  - commerce_product
+  - commerce_store
+  - commerce_stripe
+  - content_translation
+  - entity
+  - entity_reference_revisions
+  - field
+  - inline_entity_form
+  - language
+  - options
+  - path
+  - profile
+  - state_machine
+  - system
+  - text
+  - user
+  - views
+package: SWM

@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_stripe
+id: stripe
+label: Stripe
+weight: null
+plugin: stripe
+configuration:
+  publishable_key: pk_test_SY1JcVmrpApm0lo9xZ6I4ZH5
+  secret_key: sk_test_48OWH9zbiFQlN1hQCaxR0FP5
+  display_label: Stripe
+  mode: test
+  payment_method_types:
+    - credit_card
+conditions: {  }
+conditionOperator: AND

@@ -31,8 +31,8 @@
     "drupal/simple_block": "^1.0-beta1",
     "drupal/registration_link": "^1.0",
     "drupal/betterlogin": "^1.1",
-    "drupal/commerce": "^2.0-rc3"
-
+    "drupal/commerce": "^2.0-rc3",
+    "drupal/commerce_stripe": "^1.0-beta1"
   },
   "require-dev": {
   },
