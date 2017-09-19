@@ -35,12 +35,12 @@
   </div>
 {% endfor %}
 
-{% for i in 1..add %}
-    <br>
-    <div class='views-row-members-placeholder'>
-        image placeholder <br>
-        name placeholder <br>
-        test {{ i }}
+<div class="row">
+  {% for i in 1..add %}
+    <div class='col-xs-6 col-sm-4 col-md-3'>
+      <div class="group-user-name">Username</div>
+      <img src="/{{ directory }}/img/default-avatar.png" class="img-responsive group-avatar" />
+      <div class="group-info">What is this {{ i }}</div>
     </div>
-    <br>
-{% endfor %}
+  {% endfor %}
+</div>
